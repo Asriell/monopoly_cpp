@@ -32,7 +32,8 @@ par Tristan Damian 11509696, Matthieu Cherrier 11507416, Kevin Burdin 11507706
 	quelles actions vous pouvez entreprendre, les actions pouvant changer en fonction des cases.
 
 ### Les fonctionnalites du programme :
-	#### Le jeu en mode texte.
+
+#### Le jeu en mode texte.
 	Possibilite de selectionner le nombre de joueurs voulus, ainsi que le choix de pseudonymes.
 	Gestion du tour de chaque joueur.
 	Gestion des ressources de chaque joueur, a savoir sa cagnotte, ses proprietes avec le nombre
@@ -42,7 +43,7 @@ par Tristan Damian 11509696, Matthieu Cherrier 11507416, Kevin Burdin 11507706
 	Affichage regulier de toutes les informations pouvant aider le joueur dans ses choix (les actions
 	possibles, les proprietes possedees, la position du joueur...)
 	
-	#### Le jeu en mode graphique.
+#### Le jeu en mode graphique.
 	Affichage des ressources du jeu, a savoir le plateau, les pions des joueurs.
 	Affichage du deplacement des joueurs.
 	Affichage sur le cote des caracteristiques de chaque joueur (cagnotte et cartes "libere de prison")
