@@ -1,0 +1,382 @@
+\hypertarget{classCase}{}\section{Référence de la classe Case}
+\label{classCase}\index{Case@{Case}}
+
+
+{\ttfamily \#include $<$Case.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classCase_a680ba46223bfc211c3c8d4393d829685}{get\+Numero\+Case} () const 
+\begin{DoxyCompactList}\small\item\em obtenir le numero d\textquotesingle{}une case \end{DoxyCompactList}\item 
+bool \hyperlink{classCase_aa417d2219ab48229e0632ccad977d15a}{get\+Parc\+Gratuit} () const 
+\begin{DoxyCompactList}\small\item\em pour savoir si une case est un parc gratuit ou non \end{DoxyCompactList}\item 
+bool \hyperlink{classCase_aafee1cdcc373c578d83e0e3bdc1c89ea}{get\+Aller\+En\+Prison} () const 
+\begin{DoxyCompactList}\small\item\em pour savoir si une case est une case \char`\"{}allez en prison\char`\"{} ou non \end{DoxyCompactList}\item 
+bool \hyperlink{classCase_af68aa1113d232ec3c73aa60e36cf842c}{get\+Visite\+Prison} () const 
+\begin{DoxyCompactList}\small\item\em pour savoir si une case est une case \char`\"{}simple visite\char`\"{} ou non \end{DoxyCompactList}\item 
+\hyperlink{classPropriete}{Propriete} $\ast$ \hyperlink{classCase_acaf2cc4372def79a29ada8fa1b6e7dbe}{get\+Propriete} () const 
+\begin{DoxyCompactList}\small\item\em obtenir la propriete d\textquotesingle{}une case \end{DoxyCompactList}\item 
+bool \hyperlink{classCase_a6171b96839d47668e22f4533a2d80865}{get\+Case\+Depart} () const 
+\begin{DoxyCompactList}\small\item\em pour savoir si une case est une case depart ou non \end{DoxyCompactList}\item 
+bool \hyperlink{classCase_aabe2bfd6e95b2fa1bc072ae3a81484ce}{get\+Caisse\+Communaute} () const 
+\begin{DoxyCompactList}\small\item\em pour savoir si une case permet de piocher une carte caisse de communaute ou non \end{DoxyCompactList}\item 
+bool \hyperlink{classCase_a3b92aa372686f8fa11301bfbeee29339}{get\+Chance} () const 
+\begin{DoxyCompactList}\small\item\em pour savoir si une case permet de piocher une carte chance ou non \end{DoxyCompactList}\item 
+void \hyperlink{classCase_a34aa38e3569eec7807bea8ba4bada141}{set\+Numero\+Case} (int x)
+\begin{DoxyCompactList}\small\item\em modifier le numero d\textquotesingle{}une case \end{DoxyCompactList}\item 
+void \hyperlink{classCase_a642ea3922d7870bef55f60a84721e0e3}{set\+Parc\+Gratuit} (bool x)
+\begin{DoxyCompactList}\small\item\em faire d\textquotesingle{}une case un parc gratuit ou non \end{DoxyCompactList}\item 
+void \hyperlink{classCase_ab5a2876f04132597d649e5d42e00a126}{set\+Aller\+En\+Prison} (bool x)
+\begin{DoxyCompactList}\small\item\em faire d\textquotesingle{}une case un \char`\"{}allez en prison\char`\"{} ou non \end{DoxyCompactList}\item 
+void \hyperlink{classCase_a927af019e34de03bf2c1cab5359dea44}{set\+Visite\+Prison} (bool x)
+\begin{DoxyCompactList}\small\item\em faire d\textquotesingle{}une case un \char`\"{}simple visite\char`\"{} ou non \end{DoxyCompactList}\item 
+void \hyperlink{classCase_acc784453c20a6f7816da47e7b3d2441c}{setpropriete} (\hyperlink{classPropriete}{Propriete} $\ast$p)
+\begin{DoxyCompactList}\small\item\em modifier une propriete \end{DoxyCompactList}\item 
+void \hyperlink{classCase_a524646e72a6eecbf98a26cc7c34bc644}{set\+Case\+Depart} (bool x)
+\begin{DoxyCompactList}\small\item\em faire d\textquotesingle{}une case une case depart ou non \end{DoxyCompactList}\item 
+void \hyperlink{classCase_a52c2c78379efcd1d9b33b05c1b34a186}{set\+Caisse\+Communaute} (bool x)
+\begin{DoxyCompactList}\small\item\em faire d\textquotesingle{}une case un \char`\"{}piocher une carte caisse communaute\char`\"{} ou non \end{DoxyCompactList}\item 
+void \hyperlink{classCase_a24250d3057e9e7405de58ef4851cd030}{set\+Chance} (bool x)
+\begin{DoxyCompactList}\small\item\em faire d\textquotesingle{}une case un \char`\"{}piochez une carte chance\char`\"{} ou non \end{DoxyCompactList}\item 
+void \hyperlink{classCase_a06c30f3212045e598dcdf9abc3c87f3d}{Effet\+Case} (\hyperlink{classJoueur}{Joueur} $\ast$j, \hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm} \&communaute, \hyperlink{classPaquetChance}{Paquet\+Chance} \&chance, \hyperlink{classJeu}{Jeu} $\ast$jeu, \hyperlink{classJoueur}{Joueur} \&receveur)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}appliquer l\textquotesingle{}effet d\textquotesingle{}une case sur un joueur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+la classe qui permet de generer une case 
+
+\subsection{Documentation des fonctions membres}
+\index{Case@{Case}!Effet\+Case@{Effet\+Case}}
+\index{Effet\+Case@{Effet\+Case}!Case@{Case}}
+\subsubsection[{\texorpdfstring{Effet\+Case(\+Joueur $\ast$j, Paquet\+Caisse\+Comm \&communaute, Paquet\+Chance \&chance, Jeu $\ast$jeu, Joueur \&receveur)}{EffetCase(Joueur *j, PaquetCaisseComm &communaute, PaquetChance &chance, Jeu *jeu, Joueur &receveur)}}]{\setlength{\rightskip}{0pt plus 5cm}void Case\+::\+Effet\+Case (
+\begin{DoxyParamCaption}
+\item[{{\bf Joueur} $\ast$}]{j, }
+\item[{{\bf Paquet\+Caisse\+Comm} \&}]{communaute, }
+\item[{{\bf Paquet\+Chance} \&}]{chance, }
+\item[{{\bf Jeu} $\ast$}]{jeu, }
+\item[{{\bf Joueur} \&}]{receveur}
+\end{DoxyParamCaption}
+)}\hypertarget{classCase_a06c30f3212045e598dcdf9abc3c87f3d}{}\label{classCase_a06c30f3212045e598dcdf9abc3c87f3d}
+
+
+Permet d\textquotesingle{}appliquer l\textquotesingle{}effet d\textquotesingle{}une case sur un joueur. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em $\ast$j} & \hyperlink{classJoueur}{Joueur}, communaute\+: \hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm}, chance\+: \hyperlink{classPaquetChance}{Paquet\+Chance}, $\ast$jeu\+: \hyperlink{classJeu}{Jeu}, receveur\+: \hyperlink{classJoueur}{Joueur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Case@{Case}!get\+Aller\+En\+Prison@{get\+Aller\+En\+Prison}}
+\index{get\+Aller\+En\+Prison@{get\+Aller\+En\+Prison}!Case@{Case}}
+\subsubsection[{\texorpdfstring{get\+Aller\+En\+Prison() const }{getAllerEnPrison() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Case\+::get\+Aller\+En\+Prison (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classCase_aafee1cdcc373c578d83e0e3bdc1c89ea}{}\label{classCase_aafee1cdcc373c578d83e0e3bdc1c89ea}
+
+
+pour savoir si une case est une case \char`\"{}allez en prison\char`\"{} ou non 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un booleen 
+\end{DoxyReturn}
+\index{Case@{Case}!get\+Caisse\+Communaute@{get\+Caisse\+Communaute}}
+\index{get\+Caisse\+Communaute@{get\+Caisse\+Communaute}!Case@{Case}}
+\subsubsection[{\texorpdfstring{get\+Caisse\+Communaute() const }{getCaisseCommunaute() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Case\+::get\+Caisse\+Communaute (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classCase_aabe2bfd6e95b2fa1bc072ae3a81484ce}{}\label{classCase_aabe2bfd6e95b2fa1bc072ae3a81484ce}
+
+
+pour savoir si une case permet de piocher une carte caisse de communaute ou non 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un booleen 
+\end{DoxyReturn}
+\index{Case@{Case}!get\+Case\+Depart@{get\+Case\+Depart}}
+\index{get\+Case\+Depart@{get\+Case\+Depart}!Case@{Case}}
+\subsubsection[{\texorpdfstring{get\+Case\+Depart() const }{getCaseDepart() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Case\+::get\+Case\+Depart (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classCase_a6171b96839d47668e22f4533a2d80865}{}\label{classCase_a6171b96839d47668e22f4533a2d80865}
+
+
+pour savoir si une case est une case depart ou non 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un booleen 
+\end{DoxyReturn}
+\index{Case@{Case}!get\+Chance@{get\+Chance}}
+\index{get\+Chance@{get\+Chance}!Case@{Case}}
+\subsubsection[{\texorpdfstring{get\+Chance() const }{getChance() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Case\+::get\+Chance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classCase_a3b92aa372686f8fa11301bfbeee29339}{}\label{classCase_a3b92aa372686f8fa11301bfbeee29339}
+
+
+pour savoir si une case permet de piocher une carte chance ou non 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un booleen 
+\end{DoxyReturn}
+\index{Case@{Case}!get\+Numero\+Case@{get\+Numero\+Case}}
+\index{get\+Numero\+Case@{get\+Numero\+Case}!Case@{Case}}
+\subsubsection[{\texorpdfstring{get\+Numero\+Case() const }{getNumeroCase() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Case\+::get\+Numero\+Case (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classCase_a680ba46223bfc211c3c8d4393d829685}{}\label{classCase_a680ba46223bfc211c3c8d4393d829685}
+
+
+obtenir le numero d\textquotesingle{}une case 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Case@{Case}!get\+Parc\+Gratuit@{get\+Parc\+Gratuit}}
+\index{get\+Parc\+Gratuit@{get\+Parc\+Gratuit}!Case@{Case}}
+\subsubsection[{\texorpdfstring{get\+Parc\+Gratuit() const }{getParcGratuit() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Case\+::get\+Parc\+Gratuit (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classCase_aa417d2219ab48229e0632ccad977d15a}{}\label{classCase_aa417d2219ab48229e0632ccad977d15a}
+
+
+pour savoir si une case est un parc gratuit ou non 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un booleen 
+\end{DoxyReturn}
+\index{Case@{Case}!get\+Propriete@{get\+Propriete}}
+\index{get\+Propriete@{get\+Propriete}!Case@{Case}}
+\subsubsection[{\texorpdfstring{get\+Propriete() const }{getPropriete() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Propriete} $\ast$ Case\+::get\+Propriete (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classCase_acaf2cc4372def79a29ada8fa1b6e7dbe}{}\label{classCase_acaf2cc4372def79a29ada8fa1b6e7dbe}
+
+
+obtenir la propriete d\textquotesingle{}une case 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une propriete 
+\end{DoxyReturn}
+\index{Case@{Case}!get\+Visite\+Prison@{get\+Visite\+Prison}}
+\index{get\+Visite\+Prison@{get\+Visite\+Prison}!Case@{Case}}
+\subsubsection[{\texorpdfstring{get\+Visite\+Prison() const }{getVisitePrison() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Case\+::get\+Visite\+Prison (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classCase_af68aa1113d232ec3c73aa60e36cf842c}{}\label{classCase_af68aa1113d232ec3c73aa60e36cf842c}
+
+
+pour savoir si une case est une case \char`\"{}simple visite\char`\"{} ou non 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un booleen 
+\end{DoxyReturn}
+\index{Case@{Case}!set\+Aller\+En\+Prison@{set\+Aller\+En\+Prison}}
+\index{set\+Aller\+En\+Prison@{set\+Aller\+En\+Prison}!Case@{Case}}
+\subsubsection[{\texorpdfstring{set\+Aller\+En\+Prison(bool x)}{setAllerEnPrison(bool x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Case\+::set\+Aller\+En\+Prison (
+\begin{DoxyParamCaption}
+\item[{bool}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classCase_ab5a2876f04132597d649e5d42e00a126}{}\label{classCase_ab5a2876f04132597d649e5d42e00a126}
+
+
+faire d\textquotesingle{}une case un \char`\"{}allez en prison\char`\"{} ou non 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & booleen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Case@{Case}!set\+Caisse\+Communaute@{set\+Caisse\+Communaute}}
+\index{set\+Caisse\+Communaute@{set\+Caisse\+Communaute}!Case@{Case}}
+\subsubsection[{\texorpdfstring{set\+Caisse\+Communaute(bool x)}{setCaisseCommunaute(bool x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Case\+::set\+Caisse\+Communaute (
+\begin{DoxyParamCaption}
+\item[{bool}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classCase_a52c2c78379efcd1d9b33b05c1b34a186}{}\label{classCase_a52c2c78379efcd1d9b33b05c1b34a186}
+
+
+faire d\textquotesingle{}une case un \char`\"{}piocher une carte caisse communaute\char`\"{} ou non 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & booleen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Case@{Case}!set\+Case\+Depart@{set\+Case\+Depart}}
+\index{set\+Case\+Depart@{set\+Case\+Depart}!Case@{Case}}
+\subsubsection[{\texorpdfstring{set\+Case\+Depart(bool x)}{setCaseDepart(bool x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Case\+::set\+Case\+Depart (
+\begin{DoxyParamCaption}
+\item[{bool}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classCase_a524646e72a6eecbf98a26cc7c34bc644}{}\label{classCase_a524646e72a6eecbf98a26cc7c34bc644}
+
+
+faire d\textquotesingle{}une case une case depart ou non 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & booleen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Case@{Case}!set\+Chance@{set\+Chance}}
+\index{set\+Chance@{set\+Chance}!Case@{Case}}
+\subsubsection[{\texorpdfstring{set\+Chance(bool x)}{setChance(bool x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Case\+::set\+Chance (
+\begin{DoxyParamCaption}
+\item[{bool}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classCase_a24250d3057e9e7405de58ef4851cd030}{}\label{classCase_a24250d3057e9e7405de58ef4851cd030}
+
+
+faire d\textquotesingle{}une case un \char`\"{}piochez une carte chance\char`\"{} ou non 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & booleen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Case@{Case}!set\+Numero\+Case@{set\+Numero\+Case}}
+\index{set\+Numero\+Case@{set\+Numero\+Case}!Case@{Case}}
+\subsubsection[{\texorpdfstring{set\+Numero\+Case(int x)}{setNumeroCase(int x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Case\+::set\+Numero\+Case (
+\begin{DoxyParamCaption}
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classCase_a34aa38e3569eec7807bea8ba4bada141}{}\label{classCase_a34aa38e3569eec7807bea8ba4bada141}
+
+
+modifier le numero d\textquotesingle{}une case 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Case@{Case}!set\+Parc\+Gratuit@{set\+Parc\+Gratuit}}
+\index{set\+Parc\+Gratuit@{set\+Parc\+Gratuit}!Case@{Case}}
+\subsubsection[{\texorpdfstring{set\+Parc\+Gratuit(bool x)}{setParcGratuit(bool x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Case\+::set\+Parc\+Gratuit (
+\begin{DoxyParamCaption}
+\item[{bool}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classCase_a642ea3922d7870bef55f60a84721e0e3}{}\label{classCase_a642ea3922d7870bef55f60a84721e0e3}
+
+
+faire d\textquotesingle{}une case un parc gratuit ou non 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & booleen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Case@{Case}!setpropriete@{setpropriete}}
+\index{setpropriete@{setpropriete}!Case@{Case}}
+\subsubsection[{\texorpdfstring{setpropriete(\+Propriete $\ast$p)}{setpropriete(Propriete *p)}}]{\setlength{\rightskip}{0pt plus 5cm}void Case\+::setpropriete (
+\begin{DoxyParamCaption}
+\item[{{\bf Propriete} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\hypertarget{classCase_acc784453c20a6f7816da47e7b3d2441c}{}\label{classCase_acc784453c20a6f7816da47e7b3d2441c}
+
+
+modifier une propriete 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em $\ast$p} & \hyperlink{classPropriete}{Propriete} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Case@{Case}!set\+Visite\+Prison@{set\+Visite\+Prison}}
+\index{set\+Visite\+Prison@{set\+Visite\+Prison}!Case@{Case}}
+\subsubsection[{\texorpdfstring{set\+Visite\+Prison(bool x)}{setVisitePrison(bool x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Case\+::set\+Visite\+Prison (
+\begin{DoxyParamCaption}
+\item[{bool}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classCase_a927af019e34de03bf2c1cab5359dea44}{}\label{classCase_a927af019e34de03bf2c1cab5359dea44}
+
+
+faire d\textquotesingle{}une case un \char`\"{}simple visite\char`\"{} ou non 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & booleen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+src/txt/\hyperlink{Case_8h}{Case.\+h}\item 
+src/txt/\hyperlink{Case_8cpp}{Case.\+cpp}\end{DoxyCompactItemize}

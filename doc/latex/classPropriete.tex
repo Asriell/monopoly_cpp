@@ -1,0 +1,619 @@
+\hypertarget{classPropriete}{}\section{Référence de la classe Propriete}
+\label{classPropriete}\index{Propriete@{Propriete}}
+
+
+{\ttfamily \#include $<$Propriete.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classPropriete_a0ad3dee14b2e7c5c6b0f5e3f9bd6fb69}{Propriete} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par defaut de \hyperlink{classPropriete}{Propriete}. \end{DoxyCompactList}\item 
+\hyperlink{classPropriete_a8a8eba0f92fcc745ca4caf3868a910c1}{Propriete} (string Nom, int Prix\+Terrain\+Nu, int Prix\+Maison, int Val\+Hypotheque, int $\ast$Taxes\+Propriete, int Proprietaire, int Nb\+Maisons, \hyperlink{classCouleur}{Couleur} couleur, bool Hypotheque, int Nb\+Famille)
+\begin{DoxyCompactList}\small\item\em Constructeur par parametre de \hyperlink{classPlateau}{Plateau}. \end{DoxyCompactList}\item 
+\hyperlink{classPropriete}{Propriete} $\ast$ \hyperlink{classPropriete_a3ba09ae6e32e9010ecc1742e2a0d998a}{operator=} (\hyperlink{classPropriete}{Propriete} $\ast$propriete\+Droite)
+\begin{DoxyCompactList}\small\item\em Surcharge de l\textquotesingle{}operateur \char`\"{}=\char`\"{} entre deux \hyperlink{classPropriete}{Propriete}. \end{DoxyCompactList}\item 
+bool \hyperlink{classPropriete_a9e0f646038795f211129a3005079523b}{operator==} (\hyperlink{classPropriete}{Propriete} propriete\+Droite)
+\begin{DoxyCompactList}\small\item\em Surcharge de l\textquotesingle{}operateur \char`\"{}==\char`\"{} entre deux \hyperlink{classPropriete}{Propriete}. \end{DoxyCompactList}\item 
+string \hyperlink{classPropriete_ac2f237f87a384e2c1227b471bbda889c}{get\+Nom} () const 
+\begin{DoxyCompactList}\small\item\em obtenir le nom d\textquotesingle{}une propriete \end{DoxyCompactList}\item 
+int \hyperlink{classPropriete_a3171ba14fb6df11e6f4cdee179e0311e}{get\+Prix\+Terrain\+Nu} () const 
+\begin{DoxyCompactList}\small\item\em obtenir le prix d\textquotesingle{}un terrain nu (sans maison) \end{DoxyCompactList}\item 
+int \hyperlink{classPropriete_a0349bbabae125e3ae1868b30a9d83628}{get\+Prix\+Maison} () const 
+\begin{DoxyCompactList}\small\item\em obtenir le prix d\textquotesingle{}une maison \end{DoxyCompactList}\item 
+int \hyperlink{classPropriete_a818ce7499d6e34c8cba413f4c7fc1980}{get\+Val\+Hypotheque} () const 
+\begin{DoxyCompactList}\small\item\em obtenir la valeur de l\textquotesingle{}hypotheque d\textquotesingle{}une maison \end{DoxyCompactList}\item 
+int \hyperlink{classPropriete_a3122317d919b87da44ec240aed7dff62}{get\+Taxes\+Propriete} (int i) const 
+\begin{DoxyCompactList}\small\item\em obtenir le rang de la taxe d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} \end{DoxyCompactList}\item 
+int \hyperlink{classPropriete_a006c7b50d9d7d7da46ba76e43825595e}{get\+Proprietaire} () const 
+\begin{DoxyCompactList}\small\item\em Trouver le proprietaire d\textquotesingle{}une \hyperlink{classPropriete}{Propriete}. \end{DoxyCompactList}\item 
+int \hyperlink{classPropriete_ac69da1f6e060e536b7f6f0aaee73e1b2}{get\+Nb\+Maisons} () const 
+\begin{DoxyCompactList}\small\item\em obtenir le nombre de maison sur une propriete \end{DoxyCompactList}\item 
+\hyperlink{classCouleur}{Couleur} \hyperlink{classPropriete_ac0a961266a4a34726fc09706f7ada70c}{get\+Couleur} () const 
+\begin{DoxyCompactList}\small\item\em obtenir la couleur d\textquotesingle{}une propriete \end{DoxyCompactList}\item 
+bool \hyperlink{classPropriete_ad4c76cf1b1e1e5081b10445f3b2eb3bc}{get\+Hypotheque} () const 
+\begin{DoxyCompactList}\small\item\em obtenir le montant de l\textquotesingle{}hypotheque d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} \end{DoxyCompactList}\item 
+void \hyperlink{classPropriete_aaa4cb797b5ca4068c3e1154407726566}{set\+Nom} (string nomprop)
+\begin{DoxyCompactList}\small\item\em modifier le nom d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} \end{DoxyCompactList}\item 
+void \hyperlink{classPropriete_a513be0d07d243282d5f33d72ee478356}{set\+Prix\+Terrain\+Nu} (int x)
+\begin{DoxyCompactList}\small\item\em modifier le prix d\textquotesingle{}un terrain nu \end{DoxyCompactList}\item 
+void \hyperlink{classPropriete_a43b101d4b05db64c193094dbe0a20d00}{set\+Prix\+Maison} (int x)
+\begin{DoxyCompactList}\small\item\em modifier le prix d\textquotesingle{}une maison \end{DoxyCompactList}\item 
+void \hyperlink{classPropriete_ab7d23b4a14f650f3540a44fa2c4da922}{set\+Val\+Hypotheque} (int x)
+\begin{DoxyCompactList}\small\item\em modifier le prix de la valeur d\textquotesingle{}une hypotheque \end{DoxyCompactList}\item 
+void \hyperlink{classPropriete_a4833cafa66f5635ddb8037bc07fe13e2}{set\+Taxes\+Propriete} (int $\ast$tab)
+\begin{DoxyCompactList}\small\item\em modifier le tableau qui classe le rang des taxes de la propriete \end{DoxyCompactList}\item 
+void \hyperlink{classPropriete_a622ae8f8fbb32d7918d81fa0bc3d8a4e}{set\+Proprietaire} (int j)
+\begin{DoxyCompactList}\small\item\em modifier le proprietaire d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} \end{DoxyCompactList}\item 
+void \hyperlink{classPropriete_ae947a56ea6c4692e42d0cf8314ccfc62}{set\+Nb\+Maisons} (int x)
+\begin{DoxyCompactList}\small\item\em modifier le nombre de maisons d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} \end{DoxyCompactList}\item 
+void \hyperlink{classPropriete_a49777433231ed442b660d4af803c01dc}{set\+Couleur} (\hyperlink{classCouleur}{Couleur} c)
+\begin{DoxyCompactList}\small\item\em modifier la couleur d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} \end{DoxyCompactList}\item 
+void \hyperlink{classPropriete_a68750bee273997b846947afde0021165}{set\+Hypotheque} (bool x)
+\begin{DoxyCompactList}\small\item\em modifier la valeur de l\textquotesingle{}hypotheque d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} \end{DoxyCompactList}\item 
+void \hyperlink{classPropriete_a265e57e36532f40e69b78566c307e144}{Ajouter\+Maison} (\hyperlink{classJoueur}{Joueur} $\ast$j)
+\begin{DoxyCompactList}\small\item\em modifier le prix d\textquotesingle{}une maison \end{DoxyCompactList}\item 
+void \hyperlink{classPropriete_aa595e624672da66ea8de9742ab96eccd}{Hypothequer} (\hyperlink{classJoueur}{Joueur} $\ast$j)
+\begin{DoxyCompactList}\small\item\em Vend les maisons et place la \hyperlink{classPropriete}{Propriete} en hypotheque. \end{DoxyCompactList}\item 
+void \hyperlink{classPropriete_a4fc5e707a9ac2f947dd071198a49960c}{Change\+Proprietaire} (int NouveauP)
+\begin{DoxyCompactList}\small\item\em modifier le proprietaire d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} \end{DoxyCompactList}\item 
+void \hyperlink{classPropriete_a35edd9b1d8c58376089f1c1cf6139740}{Payer\+Loyer} (\hyperlink{classJoueur}{Joueur} Client)
+\begin{DoxyCompactList}\small\item\em Fait payer un joueur non proprietaire lorsqu\textquotesingle{}il passe sur cette \hyperlink{classPropriete}{Propriete}. \end{DoxyCompactList}\item 
+void \hyperlink{classPropriete_a0d7831c65ca007d796e5485331195d20}{Vendre\+Maison} (int Nb\+Maison, \hyperlink{classJoueur}{Joueur} $\ast$j)
+\begin{DoxyCompactList}\small\item\em Vend un certain nombre de maisons d\textquotesingle{}une \hyperlink{classPropriete}{Propriete}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+la classe qui permet de generer une case 
+
+\subsection{Documentation des constructeurs et destructeur}
+\index{Propriete@{Propriete}!Propriete@{Propriete}}
+\index{Propriete@{Propriete}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{Propriete()}{Propriete()}}]{\setlength{\rightskip}{0pt plus 5cm}Propriete\+::\+Propriete (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_a0ad3dee14b2e7c5c6b0f5e3f9bd6fb69}{}\label{classPropriete_a0ad3dee14b2e7c5c6b0f5e3f9bd6fb69}
+
+
+Constructeur par defaut de \hyperlink{classPropriete}{Propriete}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+renvoie une \hyperlink{classPropriete}{Propriete} 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!Propriete@{Propriete}}
+\index{Propriete@{Propriete}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{Propriete(string Nom, int Prix\+Terrain\+Nu, int Prix\+Maison, int Val\+Hypotheque, int $\ast$\+Taxes\+Propriete, int Proprietaire, int Nb\+Maisons, Couleur couleur, bool Hypotheque, int Nb\+Famille)}{Propriete(string Nom, int PrixTerrainNu, int PrixMaison, int ValHypotheque, int *TaxesPropriete, int Proprietaire, int NbMaisons, Couleur couleur, bool Hypotheque, int NbFamille)}}]{\setlength{\rightskip}{0pt plus 5cm}Propriete\+::\+Propriete (
+\begin{DoxyParamCaption}
+\item[{string}]{Nom2, }
+\item[{int}]{Prix\+Terrain\+Nu2, }
+\item[{int}]{Prix\+Maison2, }
+\item[{int}]{Val\+Hypotheque2, }
+\item[{int $\ast$}]{Taxes\+Propriete2, }
+\item[{int}]{Proprietaire2, }
+\item[{int}]{Nb\+Maisons2, }
+\item[{{\bf Couleur}}]{couleur2, }
+\item[{bool}]{Hypotheque2, }
+\item[{int}]{Nb\+Famille2}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_a8a8eba0f92fcc745ca4caf3868a910c1}{}\label{classPropriete_a8a8eba0f92fcc745ca4caf3868a910c1}
+
+
+Constructeur par parametre de \hyperlink{classPlateau}{Plateau}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Nom} & chaine de caractere, Prix\+Terrain\+Nu\+: entier, Prix\+Maison\+: entier, Val\+Hypotheque\+: entier, $\ast$\+Taxes\+Propriete\+: entier, Proprietaire\+: entier, Nb\+Maisons\+: entier, couleur\+: \hyperlink{classCouleur}{Couleur}, Hypotheque\+: booleen, Nb\+Famille\+: entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+renvoie une \hyperlink{classPropriete}{Propriete} 
+\end{DoxyReturn}
+
+
+\subsection{Documentation des fonctions membres}
+\index{Propriete@{Propriete}!Ajouter\+Maison@{Ajouter\+Maison}}
+\index{Ajouter\+Maison@{Ajouter\+Maison}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{Ajouter\+Maison(\+Joueur $\ast$j)}{AjouterMaison(Joueur *j)}}]{\setlength{\rightskip}{0pt plus 5cm}void Propriete\+::\+Ajouter\+Maison (
+\begin{DoxyParamCaption}
+\item[{{\bf Joueur} $\ast$}]{j}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_a265e57e36532f40e69b78566c307e144}{}\label{classPropriete_a265e57e36532f40e69b78566c307e144}
+
+
+modifier le prix d\textquotesingle{}une maison 
+
+Ajoute une maison a la \hyperlink{classPropriete}{Propriete}.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x\+:entier} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee Ajoute une maison a la \hyperlink{classPropriete}{Propriete} 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Paramètres}
+{\em $\ast$j} & \hyperlink{classJoueur}{Joueur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Paramètres}
+{\em $\ast$j} & \hyperlink{classJoueur}{Joueur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!Change\+Proprietaire@{Change\+Proprietaire}}
+\index{Change\+Proprietaire@{Change\+Proprietaire}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{Change\+Proprietaire(int Nouveau\+P)}{ChangeProprietaire(int NouveauP)}}]{\setlength{\rightskip}{0pt plus 5cm}void Propriete\+::\+Change\+Proprietaire (
+\begin{DoxyParamCaption}
+\item[{int}]{NouveauP}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_a4fc5e707a9ac2f947dd071198a49960c}{}\label{classPropriete_a4fc5e707a9ac2f947dd071198a49960c}
+
+
+modifier le proprietaire d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em NouveauP} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!get\+Couleur@{get\+Couleur}}
+\index{get\+Couleur@{get\+Couleur}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{get\+Couleur() const }{getCouleur() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Couleur} Propriete\+::get\+Couleur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classPropriete_ac0a961266a4a34726fc09706f7ada70c}{}\label{classPropriete_ac0a961266a4a34726fc09706f7ada70c}
+
+
+obtenir la couleur d\textquotesingle{}une propriete 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une \hyperlink{classCouleur}{Couleur} 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!get\+Hypotheque@{get\+Hypotheque}}
+\index{get\+Hypotheque@{get\+Hypotheque}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{get\+Hypotheque() const }{getHypotheque() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Propriete\+::get\+Hypotheque (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classPropriete_ad4c76cf1b1e1e5081b10445f3b2eb3bc}{}\label{classPropriete_ad4c76cf1b1e1e5081b10445f3b2eb3bc}
+
+
+obtenir le montant de l\textquotesingle{}hypotheque d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un booleen 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!get\+Nb\+Maisons@{get\+Nb\+Maisons}}
+\index{get\+Nb\+Maisons@{get\+Nb\+Maisons}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{get\+Nb\+Maisons() const }{getNbMaisons() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Propriete\+::get\+Nb\+Maisons (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classPropriete_ac69da1f6e060e536b7f6f0aaee73e1b2}{}\label{classPropriete_ac69da1f6e060e536b7f6f0aaee73e1b2}
+
+
+obtenir le nombre de maison sur une propriete 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!get\+Nom@{get\+Nom}}
+\index{get\+Nom@{get\+Nom}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{get\+Nom() const }{getNom() const }}]{\setlength{\rightskip}{0pt plus 5cm}string Propriete\+::get\+Nom (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classPropriete_ac2f237f87a384e2c1227b471bbda889c}{}\label{classPropriete_ac2f237f87a384e2c1227b471bbda889c}
+
+
+obtenir le nom d\textquotesingle{}une propriete 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une chaine de caractere 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!get\+Prix\+Maison@{get\+Prix\+Maison}}
+\index{get\+Prix\+Maison@{get\+Prix\+Maison}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{get\+Prix\+Maison() const }{getPrixMaison() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Propriete\+::get\+Prix\+Maison (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classPropriete_a0349bbabae125e3ae1868b30a9d83628}{}\label{classPropriete_a0349bbabae125e3ae1868b30a9d83628}
+
+
+obtenir le prix d\textquotesingle{}une maison 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!get\+Prix\+Terrain\+Nu@{get\+Prix\+Terrain\+Nu}}
+\index{get\+Prix\+Terrain\+Nu@{get\+Prix\+Terrain\+Nu}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{get\+Prix\+Terrain\+Nu() const }{getPrixTerrainNu() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Propriete\+::get\+Prix\+Terrain\+Nu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classPropriete_a3171ba14fb6df11e6f4cdee179e0311e}{}\label{classPropriete_a3171ba14fb6df11e6f4cdee179e0311e}
+
+
+obtenir le prix d\textquotesingle{}un terrain nu (sans maison) 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!get\+Proprietaire@{get\+Proprietaire}}
+\index{get\+Proprietaire@{get\+Proprietaire}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{get\+Proprietaire() const }{getProprietaire() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Propriete\+::get\+Proprietaire (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classPropriete_a006c7b50d9d7d7da46ba76e43825595e}{}\label{classPropriete_a006c7b50d9d7d7da46ba76e43825595e}
+
+
+Trouver le proprietaire d\textquotesingle{}une \hyperlink{classPropriete}{Propriete}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!get\+Taxes\+Propriete@{get\+Taxes\+Propriete}}
+\index{get\+Taxes\+Propriete@{get\+Taxes\+Propriete}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{get\+Taxes\+Propriete(int i) const }{getTaxesPropriete(int i) const }}]{\setlength{\rightskip}{0pt plus 5cm}int Propriete\+::get\+Taxes\+Propriete (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+) const}\hypertarget{classPropriete_a3122317d919b87da44ec240aed7dff62}{}\label{classPropriete_a3122317d919b87da44ec240aed7dff62}
+
+
+obtenir le rang de la taxe d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em i} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!get\+Val\+Hypotheque@{get\+Val\+Hypotheque}}
+\index{get\+Val\+Hypotheque@{get\+Val\+Hypotheque}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{get\+Val\+Hypotheque() const }{getValHypotheque() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Propriete\+::get\+Val\+Hypotheque (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classPropriete_a818ce7499d6e34c8cba413f4c7fc1980}{}\label{classPropriete_a818ce7499d6e34c8cba413f4c7fc1980}
+
+
+obtenir la valeur de l\textquotesingle{}hypotheque d\textquotesingle{}une maison 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!Hypothequer@{Hypothequer}}
+\index{Hypothequer@{Hypothequer}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{Hypothequer(\+Joueur $\ast$j)}{Hypothequer(Joueur *j)}}]{\setlength{\rightskip}{0pt plus 5cm}void Propriete\+::\+Hypothequer (
+\begin{DoxyParamCaption}
+\item[{{\bf Joueur} $\ast$}]{j}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_aa595e624672da66ea8de9742ab96eccd}{}\label{classPropriete_aa595e624672da66ea8de9742ab96eccd}
+
+
+Vend les maisons et place la \hyperlink{classPropriete}{Propriete} en hypotheque. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em $\ast$j} & \hyperlink{classJoueur}{Joueur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!operator=@{operator=}}
+\index{operator=@{operator=}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{operator=(\+Propriete $\ast$propriete\+Droite)}{operator=(Propriete *proprieteDroite)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Propriete} $\ast$ Propriete\+::operator= (
+\begin{DoxyParamCaption}
+\item[{{\bf Propriete} $\ast$}]{propriete\+Droite}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_a3ba09ae6e32e9010ecc1742e2a0d998a}{}\label{classPropriete_a3ba09ae6e32e9010ecc1742e2a0d998a}
+
+
+Surcharge de l\textquotesingle{}operateur \char`\"{}=\char`\"{} entre deux \hyperlink{classPropriete}{Propriete}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em $\ast$propriete\+Droite} & \hyperlink{classPropriete}{Propriete} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+renvoie une \hyperlink{classPropriete}{Propriete} 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!operator==@{operator==}}
+\index{operator==@{operator==}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{operator==(\+Propriete propriete\+Droite)}{operator==(Propriete proprieteDroite)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Propriete\+::operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Propriete}}]{propriete\+Droite}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_a9e0f646038795f211129a3005079523b}{}\label{classPropriete_a9e0f646038795f211129a3005079523b}
+
+
+Surcharge de l\textquotesingle{}operateur \char`\"{}==\char`\"{} entre deux \hyperlink{classPropriete}{Propriete}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em propriete\+Droite} & \hyperlink{classPropriete}{Propriete} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+renvoie un booleen 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!Payer\+Loyer@{Payer\+Loyer}}
+\index{Payer\+Loyer@{Payer\+Loyer}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{Payer\+Loyer(\+Joueur Client)}{PayerLoyer(Joueur Client)}}]{\setlength{\rightskip}{0pt plus 5cm}void Propriete\+::\+Payer\+Loyer (
+\begin{DoxyParamCaption}
+\item[{{\bf Joueur}}]{Client}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_a35edd9b1d8c58376089f1c1cf6139740}{}\label{classPropriete_a35edd9b1d8c58376089f1c1cf6139740}
+
+
+Fait payer un joueur non proprietaire lorsqu\textquotesingle{}il passe sur cette \hyperlink{classPropriete}{Propriete}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Client} & \hyperlink{classJoueur}{Joueur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!set\+Couleur@{set\+Couleur}}
+\index{set\+Couleur@{set\+Couleur}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{set\+Couleur(\+Couleur c)}{setCouleur(Couleur c)}}]{\setlength{\rightskip}{0pt plus 5cm}void Propriete\+::set\+Couleur (
+\begin{DoxyParamCaption}
+\item[{{\bf Couleur}}]{c}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_a49777433231ed442b660d4af803c01dc}{}\label{classPropriete_a49777433231ed442b660d4af803c01dc}
+
+
+modifier la couleur d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em c} & \hyperlink{classCouleur}{Couleur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!set\+Hypotheque@{set\+Hypotheque}}
+\index{set\+Hypotheque@{set\+Hypotheque}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{set\+Hypotheque(bool x)}{setHypotheque(bool x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Propriete\+::set\+Hypotheque (
+\begin{DoxyParamCaption}
+\item[{bool}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_a68750bee273997b846947afde0021165}{}\label{classPropriete_a68750bee273997b846947afde0021165}
+
+
+modifier la valeur de l\textquotesingle{}hypotheque d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & booleen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!set\+Nb\+Maisons@{set\+Nb\+Maisons}}
+\index{set\+Nb\+Maisons@{set\+Nb\+Maisons}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{set\+Nb\+Maisons(int x)}{setNbMaisons(int x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Propriete\+::set\+Nb\+Maisons (
+\begin{DoxyParamCaption}
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_ae947a56ea6c4692e42d0cf8314ccfc62}{}\label{classPropriete_ae947a56ea6c4692e42d0cf8314ccfc62}
+
+
+modifier le nombre de maisons d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!set\+Nom@{set\+Nom}}
+\index{set\+Nom@{set\+Nom}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{set\+Nom(string nomprop)}{setNom(string nomprop)}}]{\setlength{\rightskip}{0pt plus 5cm}void Propriete\+::set\+Nom (
+\begin{DoxyParamCaption}
+\item[{string}]{nomprop}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_aaa4cb797b5ca4068c3e1154407726566}{}\label{classPropriete_aaa4cb797b5ca4068c3e1154407726566}
+
+
+modifier le nom d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em nomprop} & chaine de caractere \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!set\+Prix\+Maison@{set\+Prix\+Maison}}
+\index{set\+Prix\+Maison@{set\+Prix\+Maison}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{set\+Prix\+Maison(int x)}{setPrixMaison(int x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Propriete\+::set\+Prix\+Maison (
+\begin{DoxyParamCaption}
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_a43b101d4b05db64c193094dbe0a20d00}{}\label{classPropriete_a43b101d4b05db64c193094dbe0a20d00}
+
+
+modifier le prix d\textquotesingle{}une maison 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!set\+Prix\+Terrain\+Nu@{set\+Prix\+Terrain\+Nu}}
+\index{set\+Prix\+Terrain\+Nu@{set\+Prix\+Terrain\+Nu}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{set\+Prix\+Terrain\+Nu(int x)}{setPrixTerrainNu(int x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Propriete\+::set\+Prix\+Terrain\+Nu (
+\begin{DoxyParamCaption}
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_a513be0d07d243282d5f33d72ee478356}{}\label{classPropriete_a513be0d07d243282d5f33d72ee478356}
+
+
+modifier le prix d\textquotesingle{}un terrain nu 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!set\+Proprietaire@{set\+Proprietaire}}
+\index{set\+Proprietaire@{set\+Proprietaire}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{set\+Proprietaire(int j)}{setProprietaire(int j)}}]{\setlength{\rightskip}{0pt plus 5cm}void Propriete\+::set\+Proprietaire (
+\begin{DoxyParamCaption}
+\item[{int}]{j}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_a622ae8f8fbb32d7918d81fa0bc3d8a4e}{}\label{classPropriete_a622ae8f8fbb32d7918d81fa0bc3d8a4e}
+
+
+modifier le proprietaire d\textquotesingle{}une \hyperlink{classPropriete}{Propriete} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em j} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!set\+Taxes\+Propriete@{set\+Taxes\+Propriete}}
+\index{set\+Taxes\+Propriete@{set\+Taxes\+Propriete}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{set\+Taxes\+Propriete(int $\ast$tab)}{setTaxesPropriete(int *tab)}}]{\setlength{\rightskip}{0pt plus 5cm}void Propriete\+::set\+Taxes\+Propriete (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{tab}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_a4833cafa66f5635ddb8037bc07fe13e2}{}\label{classPropriete_a4833cafa66f5635ddb8037bc07fe13e2}
+
+
+modifier le tableau qui classe le rang des taxes de la propriete 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em $\ast$tab} & tableau d\textquotesingle{}entiers \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!set\+Val\+Hypotheque@{set\+Val\+Hypotheque}}
+\index{set\+Val\+Hypotheque@{set\+Val\+Hypotheque}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{set\+Val\+Hypotheque(int x)}{setValHypotheque(int x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Propriete\+::set\+Val\+Hypotheque (
+\begin{DoxyParamCaption}
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_ab7d23b4a14f650f3540a44fa2c4da922}{}\label{classPropriete_ab7d23b4a14f650f3540a44fa2c4da922}
+
+
+modifier le prix de la valeur d\textquotesingle{}une hypotheque 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Propriete@{Propriete}!Vendre\+Maison@{Vendre\+Maison}}
+\index{Vendre\+Maison@{Vendre\+Maison}!Propriete@{Propriete}}
+\subsubsection[{\texorpdfstring{Vendre\+Maison(int Nb\+Maison, Joueur $\ast$j)}{VendreMaison(int NbMaison, Joueur *j)}}]{\setlength{\rightskip}{0pt plus 5cm}void Propriete\+::\+Vendre\+Maison (
+\begin{DoxyParamCaption}
+\item[{int}]{Nb\+Maison, }
+\item[{{\bf Joueur} $\ast$}]{j}
+\end{DoxyParamCaption}
+)}\hypertarget{classPropriete_a0d7831c65ca007d796e5485331195d20}{}\label{classPropriete_a0d7831c65ca007d796e5485331195d20}
+
+
+Vend un certain nombre de maisons d\textquotesingle{}une \hyperlink{classPropriete}{Propriete}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Nb\+Maison} & entier, $\ast$j\+: \hyperlink{classJoueur}{Joueur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+src/txt/\hyperlink{Propriete_8h}{Propriete.\+h}\item 
+src/txt/\hyperlink{Propriete_8cpp}{Propriete.\+cpp}\end{DoxyCompactItemize}

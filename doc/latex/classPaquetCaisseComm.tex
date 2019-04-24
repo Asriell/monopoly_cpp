@@ -1,0 +1,344 @@
+\hypertarget{classPaquetCaisseComm}{}\section{Référence de la classe Paquet\+Caisse\+Comm}
+\label{classPaquetCaisseComm}\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+
+
+{\ttfamily \#include $<$Paquet\+Caisse\+Comm.\+h$>$}
+
+
+
+Graphe de collaboration de Paquet\+Caisse\+Comm\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=287pt]{classPaquetCaisseComm__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structPaquetCaisseComm_1_1Cellule}{Cellule}
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classPaquetCaisseComm_aa01ac60f4e3e0ba2ec02402d86432bd8}{Paquet\+Caisse\+Comm} ()
+\begin{DoxyCompactList}\small\item\em constructeur par defaut de \hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm} \end{DoxyCompactList}\item 
+\hyperlink{classPaquetCaisseComm_a9ea6dccf1093cdb5807c996745a8ce68}{$\sim$\+Paquet\+Caisse\+Comm} ()
+\begin{DoxyCompactList}\small\item\em destructeur de \hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm} \end{DoxyCompactList}\item 
+\hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm} \& \hyperlink{classPaquetCaisseComm_aca9657c21e06fff1f0ffa3a1030cec27}{operator=} (const \hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm} \&p)
+\begin{DoxyCompactList}\small\item\em surcharge de l\textquotesingle{}operateur \char`\"{}=\char`\"{} entre deux paquets de \char`\"{}caisse communaute\char`\"{} \end{DoxyCompactList}\item 
+void \hyperlink{classPaquetCaisseComm_a41f3a14b45c12fa770774c2871a1e257}{vider} ()
+\begin{DoxyCompactList}\small\item\em vide la liste \hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm} de toutes ses cellules (cartes) \end{DoxyCompactList}\item 
+bool \hyperlink{classPaquetCaisseComm_a82100c34993a74ad83876a81d8cbd722}{est\+Vide} () const 
+\begin{DoxyCompactList}\small\item\em verifie si une file est bien vide (true) ou non (false) \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classPaquetCaisseComm_a0ccefaf67a8186a9ff5960eb5b408b22}{nb\+Elements} () const 
+\begin{DoxyCompactList}\small\item\em Compte le nombre d\textquotesingle{}elements dans la file. \end{DoxyCompactList}\item 
+\hyperlink{classCarte}{Carte} $\ast$ \hyperlink{classPaquetCaisseComm_ac3aa3b696803e1afaf3a978b19c49cd1}{ieme\+Element} (unsigned int indice) const 
+\begin{DoxyCompactList}\small\item\em Selectionne la i-\/eme carte de la file. \end{DoxyCompactList}\item 
+void \hyperlink{classPaquetCaisseComm_a3754d7aa4b776ea756c48883ae124bf6}{modifier\+Ieme\+Element} (unsigned int indice, \hyperlink{classCarte}{Carte} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Remplace le i-\/eme element par une carte passee en parametre. \end{DoxyCompactList}\item 
+void \hyperlink{classPaquetCaisseComm_ada42acf9646a98e6fa4231a99c3106ac}{ajouter\+En\+Tete} (\hyperlink{classCarte}{Carte} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Ajoute un element passe en parametre au debut de la file. \end{DoxyCompactList}\item 
+void \hyperlink{classPaquetCaisseComm_a90365361fe2b32fe7327f5ea081fc859}{ajouter\+En\+Queue} (\hyperlink{classCarte}{Carte} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Ajoute un element passe en parametre a la fin de la file. \end{DoxyCompactList}\item 
+void \hyperlink{classPaquetCaisseComm_a2327d7c648c57284d7d3d43d497bc707}{supprimer\+Tete} ()
+\begin{DoxyCompactList}\small\item\em Supprime le premier element de la file. \end{DoxyCompactList}\item 
+void \hyperlink{classPaquetCaisseComm_a7fe35a8526b71bde8c994ecea7c17086}{inserer\+Element} (\hyperlink{classCarte}{Carte} $\ast$e, unsigned int indice)
+\begin{DoxyCompactList}\small\item\em Insere une carte a la i-\/eme place de la file. \end{DoxyCompactList}\item 
+void \hyperlink{classPaquetCaisseComm_a63bee5d115614b01e31f6adb7ec6059d}{trier} ()
+\begin{DoxyCompactList}\small\item\em Trie la file en fonction de l\textquotesingle{}id des cartes. \end{DoxyCompactList}\item 
+\hyperlink{classCarte}{Carte} $\ast$ \hyperlink{classPaquetCaisseComm_a672f8287e8e43aad21694d5a26bd7de2}{Piocher\+Carte} ()
+\begin{DoxyCompactList}\small\item\em Pioche une carte, execute son effet, et la remet a la fin du paquet. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structPaquetCaisseComm_1_1Cellule}{Cellule} $\ast$ {\bfseries prem}\hypertarget{classPaquetCaisseComm_a5bf4a1577be9c7b914e6e4c7952d48ab}{}\label{classPaquetCaisseComm_a5bf4a1577be9c7b914e6e4c7952d48ab}
+
+\item 
+\hyperlink{structPaquetCaisseComm_1_1Cellule}{Cellule} $\ast$ {\bfseries last}\hypertarget{classPaquetCaisseComm_a9e9398de4eab76c0fa784a1a2be4a6da}{}\label{classPaquetCaisseComm_a9e9398de4eab76c0fa784a1a2be4a6da}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+la classe qui permet de generer une case 
+
+\subsection{Documentation des constructeurs et destructeur}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\subsubsection[{\texorpdfstring{Paquet\+Caisse\+Comm()}{PaquetCaisseComm()}}]{\setlength{\rightskip}{0pt plus 5cm}Paquet\+Caisse\+Comm\+::\+Paquet\+Caisse\+Comm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPaquetCaisseComm_aa01ac60f4e3e0ba2ec02402d86432bd8}{}\label{classPaquetCaisseComm_aa01ac60f4e3e0ba2ec02402d86432bd8}
+
+
+constructeur par defaut de \hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une file de cartes \char`\"{}caisse de communaute\char`\"{} 
+\end{DoxyReturn}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!````~Paquet\+Caisse\+Comm@{$\sim$\+Paquet\+Caisse\+Comm}}
+\index{````~Paquet\+Caisse\+Comm@{$\sim$\+Paquet\+Caisse\+Comm}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\subsubsection[{\texorpdfstring{$\sim$\+Paquet\+Caisse\+Comm()}{~PaquetCaisseComm()}}]{\setlength{\rightskip}{0pt plus 5cm}Paquet\+Caisse\+Comm\+::$\sim$\+Paquet\+Caisse\+Comm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPaquetCaisseComm_a9ea6dccf1093cdb5807c996745a8ce68}{}\label{classPaquetCaisseComm_a9ea6dccf1093cdb5807c996745a8ce68}
+
+
+destructeur de \hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+
+
+\subsection{Documentation des fonctions membres}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!ajouter\+En\+Queue@{ajouter\+En\+Queue}}
+\index{ajouter\+En\+Queue@{ajouter\+En\+Queue}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\subsubsection[{\texorpdfstring{ajouter\+En\+Queue(\+Carte $\ast$e)}{ajouterEnQueue(Carte *e)}}]{\setlength{\rightskip}{0pt plus 5cm}void Paquet\+Caisse\+Comm\+::ajouter\+En\+Queue (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{e}
+\end{DoxyParamCaption}
+)}\hypertarget{classPaquetCaisseComm_a90365361fe2b32fe7327f5ea081fc859}{}\label{classPaquetCaisseComm_a90365361fe2b32fe7327f5ea081fc859}
+
+
+Ajoute un element passe en parametre a la fin de la file. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em $\ast$e} & \hyperlink{classCarte}{Carte} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!ajouter\+En\+Tete@{ajouter\+En\+Tete}}
+\index{ajouter\+En\+Tete@{ajouter\+En\+Tete}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\subsubsection[{\texorpdfstring{ajouter\+En\+Tete(\+Carte $\ast$e)}{ajouterEnTete(Carte *e)}}]{\setlength{\rightskip}{0pt plus 5cm}void Paquet\+Caisse\+Comm\+::ajouter\+En\+Tete (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{e}
+\end{DoxyParamCaption}
+)}\hypertarget{classPaquetCaisseComm_ada42acf9646a98e6fa4231a99c3106ac}{}\label{classPaquetCaisseComm_ada42acf9646a98e6fa4231a99c3106ac}
+
+
+Ajoute un element passe en parametre au debut de la file. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em $\ast$e} & \hyperlink{classCarte}{Carte} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!est\+Vide@{est\+Vide}}
+\index{est\+Vide@{est\+Vide}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\subsubsection[{\texorpdfstring{est\+Vide() const }{estVide() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Paquet\+Caisse\+Comm\+::est\+Vide (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classPaquetCaisseComm_a82100c34993a74ad83876a81d8cbd722}{}\label{classPaquetCaisseComm_a82100c34993a74ad83876a81d8cbd722}
+
+
+verifie si une file est bien vide (true) ou non (false) 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un booleen 
+\end{DoxyReturn}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!ieme\+Element@{ieme\+Element}}
+\index{ieme\+Element@{ieme\+Element}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\subsubsection[{\texorpdfstring{ieme\+Element(unsigned int indice) const }{iemeElement(unsigned int indice) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Carte} $\ast$ Paquet\+Caisse\+Comm\+::ieme\+Element (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{i}
+\end{DoxyParamCaption}
+) const}\hypertarget{classPaquetCaisseComm_ac3aa3b696803e1afaf3a978b19c49cd1}{}\label{classPaquetCaisseComm_ac3aa3b696803e1afaf3a978b19c49cd1}
+
+
+Selectionne la i-\/eme carte de la file. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em indice} & entier positif \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une \hyperlink{classCarte}{Carte} 
+\end{DoxyReturn}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!inserer\+Element@{inserer\+Element}}
+\index{inserer\+Element@{inserer\+Element}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\subsubsection[{\texorpdfstring{inserer\+Element(\+Carte $\ast$e, unsigned int indice)}{insererElement(Carte *e, unsigned int indice)}}]{\setlength{\rightskip}{0pt plus 5cm}void Paquet\+Caisse\+Comm\+::inserer\+Element (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{e, }
+\item[{unsigned int}]{position}
+\end{DoxyParamCaption}
+)}\hypertarget{classPaquetCaisseComm_a7fe35a8526b71bde8c994ecea7c17086}{}\label{classPaquetCaisseComm_a7fe35a8526b71bde8c994ecea7c17086}
+
+
+Insere une carte a la i-\/eme place de la file. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em $\ast$e} & \hyperlink{classCarte}{Carte}, indice\+: entier positif \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!modifier\+Ieme\+Element@{modifier\+Ieme\+Element}}
+\index{modifier\+Ieme\+Element@{modifier\+Ieme\+Element}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\subsubsection[{\texorpdfstring{modifier\+Ieme\+Element(unsigned int indice, Carte $\ast$e)}{modifierIemeElement(unsigned int indice, Carte *e)}}]{\setlength{\rightskip}{0pt plus 5cm}void Paquet\+Caisse\+Comm\+::modifier\+Ieme\+Element (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{i, }
+\item[{{\bf Carte} $\ast$}]{e}
+\end{DoxyParamCaption}
+)}\hypertarget{classPaquetCaisseComm_a3754d7aa4b776ea756c48883ae124bf6}{}\label{classPaquetCaisseComm_a3754d7aa4b776ea756c48883ae124bf6}
+
+
+Remplace le i-\/eme element par une carte passee en parametre. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em indice} & entier positif, $\ast$e\+: \hyperlink{classCarte}{Carte} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!nb\+Elements@{nb\+Elements}}
+\index{nb\+Elements@{nb\+Elements}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\subsubsection[{\texorpdfstring{nb\+Elements() const }{nbElements() const }}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Paquet\+Caisse\+Comm\+::nb\+Elements (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classPaquetCaisseComm_a0ccefaf67a8186a9ff5960eb5b408b22}{}\label{classPaquetCaisseComm_a0ccefaf67a8186a9ff5960eb5b408b22}
+
+
+Compte le nombre d\textquotesingle{}elements dans la file. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier positif 
+\end{DoxyReturn}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!operator=@{operator=}}
+\index{operator=@{operator=}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\subsubsection[{\texorpdfstring{operator=(const Paquet\+Caisse\+Comm \&p)}{operator=(const PaquetCaisseComm &p)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Paquet\+Caisse\+Comm} \& Paquet\+Caisse\+Comm\+::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Paquet\+Caisse\+Comm} \&}]{l}
+\end{DoxyParamCaption}
+)}\hypertarget{classPaquetCaisseComm_aca9657c21e06fff1f0ffa3a1030cec27}{}\label{classPaquetCaisseComm_aca9657c21e06fff1f0ffa3a1030cec27}
+
+
+surcharge de l\textquotesingle{}operateur \char`\"{}=\char`\"{} entre deux paquets de \char`\"{}caisse communaute\char`\"{} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em p} & \hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un paquet de \char`\"{}caisse communaute\char`\"{} 
+\end{DoxyReturn}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!Piocher\+Carte@{Piocher\+Carte}}
+\index{Piocher\+Carte@{Piocher\+Carte}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\subsubsection[{\texorpdfstring{Piocher\+Carte()}{PiocherCarte()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Carte} $\ast$ Paquet\+Caisse\+Comm\+::\+Piocher\+Carte (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPaquetCaisseComm_a672f8287e8e43aad21694d5a26bd7de2}{}\label{classPaquetCaisseComm_a672f8287e8e43aad21694d5a26bd7de2}
+
+
+Pioche une carte, execute son effet, et la remet a la fin du paquet. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+renvoie une \hyperlink{classCarte}{Carte} 
+\end{DoxyReturn}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!supprimer\+Tete@{supprimer\+Tete}}
+\index{supprimer\+Tete@{supprimer\+Tete}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\subsubsection[{\texorpdfstring{supprimer\+Tete()}{supprimerTete()}}]{\setlength{\rightskip}{0pt plus 5cm}void Paquet\+Caisse\+Comm\+::supprimer\+Tete (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPaquetCaisseComm_a2327d7c648c57284d7d3d43d497bc707}{}\label{classPaquetCaisseComm_a2327d7c648c57284d7d3d43d497bc707}
+
+
+Supprime le premier element de la file. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!trier@{trier}}
+\index{trier@{trier}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\subsubsection[{\texorpdfstring{trier()}{trier()}}]{\setlength{\rightskip}{0pt plus 5cm}void Paquet\+Caisse\+Comm\+::trier (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPaquetCaisseComm_a63bee5d115614b01e31f6adb7ec6059d}{}\label{classPaquetCaisseComm_a63bee5d115614b01e31f6adb7ec6059d}
+
+
+Trie la file en fonction de l\textquotesingle{}id des cartes. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}!vider@{vider}}
+\index{vider@{vider}!Paquet\+Caisse\+Comm@{Paquet\+Caisse\+Comm}}
+\subsubsection[{\texorpdfstring{vider()}{vider()}}]{\setlength{\rightskip}{0pt plus 5cm}void Paquet\+Caisse\+Comm\+::vider (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPaquetCaisseComm_a41f3a14b45c12fa770774c2871a1e257}{}\label{classPaquetCaisseComm_a41f3a14b45c12fa770774c2871a1e257}
+
+
+vide la liste \hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm} de toutes ses cellules (cartes) 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+src/txt/\hyperlink{PaquetCaisseComm_8h}{Paquet\+Caisse\+Comm.\+h}\item 
+src/txt/\hyperlink{PaquetCaisseComm_8cpp}{Paquet\+Caisse\+Comm.\+cpp}\end{DoxyCompactItemize}

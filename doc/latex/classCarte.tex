@@ -1,0 +1,280 @@
+\hypertarget{classCarte}{}\section{Référence de la classe Carte}
+\label{classCarte}\index{Carte@{Carte}}
+
+
+{\ttfamily \#include $<$Carte.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classCarte_ae01a8e9e22e8c69efadac3ec3b9cd185}{Carte} (int id, string desc, bool ch, int Cat\+Effet)
+\begin{DoxyCompactList}\small\item\em Constructeur par parametre de la classe \hyperlink{classCarte}{Carte} qui cree une carte. \end{DoxyCompactList}\item 
+\hyperlink{classCarte_afe56c0ec89cb3cf0332755204b576a2d}{Carte} (const \hyperlink{classCarte}{Carte} \&c)
+\begin{DoxyCompactList}\small\item\em Constructeur par copie de la classe \hyperlink{classCarte}{Carte} qui cree une carte. \end{DoxyCompactList}\item 
+\hyperlink{classCarte_a63300ff55c58b5d5b1674a3fc8f25910}{$\sim$\+Carte} ()
+\begin{DoxyCompactList}\small\item\em Destructeur de la classe \hyperlink{classCarte}{Carte} qui detruit une carte. \end{DoxyCompactList}\item 
+int \hyperlink{classCarte_a04e3f529f748d73709a8bd55a4c5f4ca}{get\+Id\+Carte} () const 
+\begin{DoxyCompactList}\small\item\em obtenir l\textquotesingle{}id d\textquotesingle{}une carte \end{DoxyCompactList}\item 
+string \hyperlink{classCarte_a27c07b0be984dad02eea7350fc2b0c96}{get\+Description} () const 
+\begin{DoxyCompactList}\small\item\em obtenir la description d\textquotesingle{}une carte \end{DoxyCompactList}\item 
+bool \hyperlink{classCarte_aa058159c23995d0b6141b5980cb447bd}{get\+Chance} () const 
+\begin{DoxyCompactList}\small\item\em permet de savoir si c\textquotesingle{}est une carte chance (true) ou caisse communaute (false) \end{DoxyCompactList}\item 
+int \hyperlink{classCarte_afc964f1d9217dd904eebae13f49d518f}{get\+Categorie\+Effet} () const 
+\begin{DoxyCompactList}\small\item\em obtenir la categorie de l\textquotesingle{}effet d\textquotesingle{}une carte \end{DoxyCompactList}\item 
+void \hyperlink{classCarte_a3205ffb970d4aa96f50177a3cb2d2de0}{set\+Id\+Carte} (int x)
+\begin{DoxyCompactList}\small\item\em modifier l\textquotesingle{}id d\textquotesingle{}une carte \end{DoxyCompactList}\item 
+void \hyperlink{classCarte_aef1ba13573f1a362e436374c108b0406}{set\+Description} (string x)
+\begin{DoxyCompactList}\small\item\em modifier la description d\textquotesingle{}une carte \end{DoxyCompactList}\item 
+void \hyperlink{classCarte_a4c279260ee15a36b5eaea52df019c824}{set\+Chance} (bool x)
+\begin{DoxyCompactList}\small\item\em modifier le booleen chance d\textquotesingle{}une carte (si elle est de type chance ou caisse communaute) \end{DoxyCompactList}\item 
+void \hyperlink{classCarte_a7a32ab198e3f73c0b12f891779fd1424}{set\+Categorie\+Effet} (int x)
+\begin{DoxyCompactList}\small\item\em modifier la categorie de l\textquotesingle{}effet d\textquotesingle{}une carte \end{DoxyCompactList}\item 
+void \hyperlink{classCarte_a9597726842b3f036d37febbe2a94171d}{Effet\+Carte} (\hyperlink{classJoueur}{Joueur} $\ast$numJ, \hyperlink{classJeu}{Jeu} $\ast$jeu)
+\begin{DoxyCompactList}\small\item\em Applique l\textquotesingle{}effet d\textquotesingle{}une carte au(x) joueur(s) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+la classe qui permet de generer une carte 
+
+\subsection{Documentation des constructeurs et destructeur}
+\index{Carte@{Carte}!Carte@{Carte}}
+\index{Carte@{Carte}!Carte@{Carte}}
+\subsubsection[{\texorpdfstring{Carte(int id, string desc, bool ch, int Cat\+Effet)}{Carte(int id, string desc, bool ch, int CatEffet)}}]{\setlength{\rightskip}{0pt plus 5cm}Carte\+::\+Carte (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{string}]{desc, }
+\item[{bool}]{ch, }
+\item[{int}]{Cat\+Effet}
+\end{DoxyParamCaption}
+)}\hypertarget{classCarte_ae01a8e9e22e8c69efadac3ec3b9cd185}{}\label{classCarte_ae01a8e9e22e8c69efadac3ec3b9cd185}
+
+
+Constructeur par parametre de la classe \hyperlink{classCarte}{Carte} qui cree une carte. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & entier, desc\+: string, ch\+: bool, Cat\+Effet\+: int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une carte 
+\end{DoxyReturn}
+\index{Carte@{Carte}!Carte@{Carte}}
+\index{Carte@{Carte}!Carte@{Carte}}
+\subsubsection[{\texorpdfstring{Carte(const Carte \&c)}{Carte(const Carte &c)}}]{\setlength{\rightskip}{0pt plus 5cm}Carte\+::\+Carte (
+\begin{DoxyParamCaption}
+\item[{const {\bf Carte} \&}]{c}
+\end{DoxyParamCaption}
+)}\hypertarget{classCarte_afe56c0ec89cb3cf0332755204b576a2d}{}\label{classCarte_afe56c0ec89cb3cf0332755204b576a2d}
+
+
+Constructeur par copie de la classe \hyperlink{classCarte}{Carte} qui cree une carte. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em c} & \hyperlink{classCarte}{Carte} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une carte 
+\end{DoxyReturn}
+\index{Carte@{Carte}!````~Carte@{$\sim$\+Carte}}
+\index{````~Carte@{$\sim$\+Carte}!Carte@{Carte}}
+\subsubsection[{\texorpdfstring{$\sim$\+Carte()}{~Carte()}}]{\setlength{\rightskip}{0pt plus 5cm}Carte\+::$\sim$\+Carte (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classCarte_a63300ff55c58b5d5b1674a3fc8f25910}{}\label{classCarte_a63300ff55c58b5d5b1674a3fc8f25910}
+
+
+Destructeur de la classe \hyperlink{classCarte}{Carte} qui detruit une carte. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retounee 
+\end{DoxyReturn}
+
+
+\subsection{Documentation des fonctions membres}
+\index{Carte@{Carte}!Effet\+Carte@{Effet\+Carte}}
+\index{Effet\+Carte@{Effet\+Carte}!Carte@{Carte}}
+\subsubsection[{\texorpdfstring{Effet\+Carte(\+Joueur $\ast$num\+J, Jeu $\ast$jeu)}{EffetCarte(Joueur *numJ, Jeu *jeu)}}]{\setlength{\rightskip}{0pt plus 5cm}void Carte\+::\+Effet\+Carte (
+\begin{DoxyParamCaption}
+\item[{{\bf Joueur} $\ast$}]{numJ, }
+\item[{{\bf Jeu} $\ast$}]{jeu}
+\end{DoxyParamCaption}
+)}\hypertarget{classCarte_a9597726842b3f036d37febbe2a94171d}{}\label{classCarte_a9597726842b3f036d37febbe2a94171d}
+
+
+Applique l\textquotesingle{}effet d\textquotesingle{}une carte au(x) joueur(s) 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em $\ast$numJ} & \hyperlink{classJoueur}{Joueur}, $\ast$jeu\+: \hyperlink{classJeu}{Jeu} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Carte@{Carte}!get\+Categorie\+Effet@{get\+Categorie\+Effet}}
+\index{get\+Categorie\+Effet@{get\+Categorie\+Effet}!Carte@{Carte}}
+\subsubsection[{\texorpdfstring{get\+Categorie\+Effet() const }{getCategorieEffet() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Carte\+::get\+Categorie\+Effet (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classCarte_afc964f1d9217dd904eebae13f49d518f}{}\label{classCarte_afc964f1d9217dd904eebae13f49d518f}
+
+
+obtenir la categorie de l\textquotesingle{}effet d\textquotesingle{}une carte 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Carte@{Carte}!get\+Chance@{get\+Chance}}
+\index{get\+Chance@{get\+Chance}!Carte@{Carte}}
+\subsubsection[{\texorpdfstring{get\+Chance() const }{getChance() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Carte\+::get\+Chance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classCarte_aa058159c23995d0b6141b5980cb447bd}{}\label{classCarte_aa058159c23995d0b6141b5980cb447bd}
+
+
+permet de savoir si c\textquotesingle{}est une carte chance (true) ou caisse communaute (false) 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un booleen 
+\end{DoxyReturn}
+\index{Carte@{Carte}!get\+Description@{get\+Description}}
+\index{get\+Description@{get\+Description}!Carte@{Carte}}
+\subsubsection[{\texorpdfstring{get\+Description() const }{getDescription() const }}]{\setlength{\rightskip}{0pt plus 5cm}string Carte\+::get\+Description (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classCarte_a27c07b0be984dad02eea7350fc2b0c96}{}\label{classCarte_a27c07b0be984dad02eea7350fc2b0c96}
+
+
+obtenir la description d\textquotesingle{}une carte 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une chaine de caractere 
+\end{DoxyReturn}
+\index{Carte@{Carte}!get\+Id\+Carte@{get\+Id\+Carte}}
+\index{get\+Id\+Carte@{get\+Id\+Carte}!Carte@{Carte}}
+\subsubsection[{\texorpdfstring{get\+Id\+Carte() const }{getIdCarte() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Carte\+::get\+Id\+Carte (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classCarte_a04e3f529f748d73709a8bd55a4c5f4ca}{}\label{classCarte_a04e3f529f748d73709a8bd55a4c5f4ca}
+
+
+obtenir l\textquotesingle{}id d\textquotesingle{}une carte 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Carte@{Carte}!set\+Categorie\+Effet@{set\+Categorie\+Effet}}
+\index{set\+Categorie\+Effet@{set\+Categorie\+Effet}!Carte@{Carte}}
+\subsubsection[{\texorpdfstring{set\+Categorie\+Effet(int x)}{setCategorieEffet(int x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Carte\+::set\+Categorie\+Effet (
+\begin{DoxyParamCaption}
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classCarte_a7a32ab198e3f73c0b12f891779fd1424}{}\label{classCarte_a7a32ab198e3f73c0b12f891779fd1424}
+
+
+modifier la categorie de l\textquotesingle{}effet d\textquotesingle{}une carte 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Carte@{Carte}!set\+Chance@{set\+Chance}}
+\index{set\+Chance@{set\+Chance}!Carte@{Carte}}
+\subsubsection[{\texorpdfstring{set\+Chance(bool x)}{setChance(bool x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Carte\+::set\+Chance (
+\begin{DoxyParamCaption}
+\item[{bool}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classCarte_a4c279260ee15a36b5eaea52df019c824}{}\label{classCarte_a4c279260ee15a36b5eaea52df019c824}
+
+
+modifier le booleen chance d\textquotesingle{}une carte (si elle est de type chance ou caisse communaute) 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & booleen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Carte@{Carte}!set\+Description@{set\+Description}}
+\index{set\+Description@{set\+Description}!Carte@{Carte}}
+\subsubsection[{\texorpdfstring{set\+Description(string x)}{setDescription(string x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Carte\+::set\+Description (
+\begin{DoxyParamCaption}
+\item[{string}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classCarte_aef1ba13573f1a362e436374c108b0406}{}\label{classCarte_aef1ba13573f1a362e436374c108b0406}
+
+
+modifier la description d\textquotesingle{}une carte 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & chaine de caracteres \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Carte@{Carte}!set\+Id\+Carte@{set\+Id\+Carte}}
+\index{set\+Id\+Carte@{set\+Id\+Carte}!Carte@{Carte}}
+\subsubsection[{\texorpdfstring{set\+Id\+Carte(int x)}{setIdCarte(int x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Carte\+::set\+Id\+Carte (
+\begin{DoxyParamCaption}
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classCarte_a3205ffb970d4aa96f50177a3cb2d2de0}{}\label{classCarte_a3205ffb970d4aa96f50177a3cb2d2de0}
+
+
+modifier l\textquotesingle{}id d\textquotesingle{}une carte 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+src/txt/\hyperlink{Carte_8h}{Carte.\+h}\item 
+src/txt/\hyperlink{Carte_8cpp}{Carte.\+cpp}\end{DoxyCompactItemize}

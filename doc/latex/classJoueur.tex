@@ -1,0 +1,768 @@
+\hypertarget{classJoueur}{}\section{Référence de la classe Joueur}
+\label{classJoueur}\index{Joueur@{Joueur}}
+
+
+{\ttfamily \#include $<$Joueur.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classJoueur_add6c98be3020651d84f6d75ccc1d867e}{Joueur} ()
+\begin{DoxyCompactList}\small\item\em constructeur par defaut de joueur \end{DoxyCompactList}\item 
+\hyperlink{classJoueur_a6b021071dbc36373e27aeefe46b2f3a5}{Joueur} (string Nom, int Numero, const \hyperlink{classCouleur}{Couleur} \&couleur\+Joueur1, const \hyperlink{classCouleur}{Couleur} \&couleur\+Joueur2, const \hyperlink{classCouleur}{Couleur} \&couleur\+Joueur3, const \hyperlink{classCouleur}{Couleur} \&couleur\+Joueur4)
+\begin{DoxyCompactList}\small\item\em constructeur par parametre de joueur \end{DoxyCompactList}\item 
+\hyperlink{classJoueur}{Joueur} \& \hyperlink{classJoueur_a0a90bcc7315b9756bd7326a3576e03e2}{operator=} (\hyperlink{classJoueur}{Joueur} Joueur\+Droite)
+\begin{DoxyCompactList}\small\item\em surcharge de l\textquotesingle{}operateur \char`\"{}=\char`\"{} entre deux joueurs \end{DoxyCompactList}\item 
+string \hyperlink{classJoueur_a73a200ab69c2d527a63140e1cf03a5a6}{get\+Nom\+Joueur} () const 
+\begin{DoxyCompactList}\small\item\em obtenir le nom d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+int \hyperlink{classJoueur_ae786e53b4e6f69cac8469e03eae0ae8e}{get\+Numero\+Joueur} () const 
+\begin{DoxyCompactList}\small\item\em obtenir le numero d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+int \hyperlink{classJoueur_a4fda33fe1f3ee3c79441db3aa108351a}{get\+Cagnotte\+Joueur} () const 
+\begin{DoxyCompactList}\small\item\em obtenir la cagnotte d\textquotesingle{}un joueur (l\textquotesingle{}argent qu\textquotesingle{}il a en reserve) \end{DoxyCompactList}\item 
+Tableau\+Dynamique \hyperlink{classJoueur_a2526f4cea8724f3ea6b6433a7c5d6737}{get\+Liste\+Proprietes\+Joueur} () const 
+\begin{DoxyCompactList}\small\item\em obtenir la liste des proprietes d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+int \hyperlink{classJoueur_aba03f85caafa2ab3ce52d3769845c972}{get\+Position\+Joueur} () const 
+\begin{DoxyCompactList}\small\item\em obtenir la position d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+\hyperlink{classCouleur}{Couleur} \hyperlink{classJoueur_abfac9cbad12a4bb882156e75dbbad07f}{get\+Couleur\+Joueur} () const 
+\begin{DoxyCompactList}\small\item\em obtenir la couleur d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+int \hyperlink{classJoueur_a9e1ae8232cf4d458c81bcde1cf6cac9d}{get\+Nb\+Carte\+Libre\+Prison} () const 
+\begin{DoxyCompactList}\small\item\em obtenir le nombre de cartes \char`\"{}libere de prison\char`\"{} d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+bool \hyperlink{classJoueur_a50562fb939c041ace1822b49cdf5fb1c}{get\+En\+Prison} () const 
+\begin{DoxyCompactList}\small\item\em savoir si un joueur est en prison (true) ou non \end{DoxyCompactList}\item 
+int \hyperlink{classJoueur_a2875776408bb1a52062ef4403f9ac830}{get\+Nb\+Gare} () const 
+\begin{DoxyCompactList}\small\item\em obtenir le nombre de gares d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+int \hyperlink{classJoueur_a92e50af7b49e96d048b75a3114a16f87}{get\+Nb\+Service\+Public} () const 
+\begin{DoxyCompactList}\small\item\em obtenir le nombre de services publics d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+bool \hyperlink{classJoueur_a84ce42b1f0c45d71de434de8923318e7}{get\+Encore\+En\+Jeu} () const 
+\begin{DoxyCompactList}\small\item\em savoir si un joueur est encore en jeu (true) ou non \end{DoxyCompactList}\item 
+int \hyperlink{classJoueur_a2c72233b506965c4725d9941b60a6f6a}{get\+Tour\+Prison} () const 
+\begin{DoxyCompactList}\small\item\em obtenir le nombre de tours passes en prison \end{DoxyCompactList}\item 
+int \hyperlink{classJoueur_aa9ecdb286b9a2c293fb65f20c169c1c8}{Nb\+Maisons\+Joueur} ()
+\begin{DoxyCompactList}\small\item\em obtenir le nombre de maisons d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+int \hyperlink{classJoueur_a42907f6de094a06ced56018c48389d2c}{Nb\+Terrains\+Non\+Hypotheques} ()
+\begin{DoxyCompactList}\small\item\em obtenir le nombre de terrains non hypotheques \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_a621f031b62d9a5a2360c7ecbe87963e8}{set\+Nom\+Joueur} (string Nom\+Joueur)
+\begin{DoxyCompactList}\small\item\em modifier le nom d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_a50820633156f35216a2591f66bab2f7b}{set\+Numero\+Joueur} (int Numero\+Joueur)
+\begin{DoxyCompactList}\small\item\em modifier le numero d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_a94c32aa334fd5bb3e4ddc96f5b77e1b6}{set\+Cagnotte\+Joueur} (int Cagnotte\+Joueur)
+\begin{DoxyCompactList}\small\item\em modifier la cagnotte d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_a18c5e436eb68fc995a32c27928e0966a}{set\+Liste\+Proprietes\+Joueur} (\hyperlink{classPropriete}{Propriete} $\ast$e)
+\begin{DoxyCompactList}\small\item\em modifier la liste des proprietes d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_a16ae199ab457026815521c0cd1e2cd9a}{set\+Position\+Joueur} (int Position\+Joueur)
+\begin{DoxyCompactList}\small\item\em modifier la position d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_a783f97724d36879e869bbbed3da7df1a}{set\+Couleur\+Joueur} (\hyperlink{classCouleur}{Couleur} Couleur\+Joueur)
+\begin{DoxyCompactList}\small\item\em modifier la couleur d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_ace62506abea09f7ce35ddf608faf3bf5}{set\+Nb\+Carte\+Libre\+Prison} (int Nb\+Carte\+Libre\+Prison)
+\begin{DoxyCompactList}\small\item\em modifier le nombre de cartes \char`\"{}libere de prison\char`\"{} d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_a44836db8ee97b5a43d9babd0601c66cf}{set\+En\+Prison} (bool En\+Prison)
+\begin{DoxyCompactList}\small\item\em placer un joueur en prison (true) ou l\textquotesingle{}en sortir (false) \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_a1cda809f3eb87380361472541e94ad72}{set\+Nb\+Gare} (int Nb\+Gare)
+\begin{DoxyCompactList}\small\item\em modifier le nombre de gares possedees par un joueur \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_ae3d9c066fa56dfbdc93eebd2ffb14f53}{set\+Nb\+Service\+Public} (int Nb\+Service\+Public)
+\begin{DoxyCompactList}\small\item\em modifier le nombre de services publics possedes par un joueur \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_a019e018f64e0ece74ce0133e394c9da7}{set\+Encore\+En\+Jeu} (bool x)
+\begin{DoxyCompactList}\small\item\em mettre un joueur hors-\/jeu (true) ou non (false) \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_ad27c6fe263fbbcc37f506af658820c66}{set\+Tour\+Prison} (int x)
+\begin{DoxyCompactList}\small\item\em modifier le nombre de tours passes en prison \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_a261fbab4596ebac8171122ebab8238d8}{Diminuer\+Argent} (int Somme)
+\begin{DoxyCompactList}\small\item\em modifier la cagnotte d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_aee0a14e1fcbf775925c2345bb0cc7294}{Augmenter\+Argent} (int Somme)
+\begin{DoxyCompactList}\small\item\em modifier la cagnotte d\textquotesingle{}un joueur \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_a88a74f33436855d7068afc8571371f2b}{Avancer} (\hyperlink{classDe}{De} \&Paire\+De)
+\begin{DoxyCompactList}\small\item\em faire avancer un joueur au moyen d\textquotesingle{}un lancer de dés \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_ab3f96bf4e675c0424e1910ad0b426fc5}{Avancer\+Case} (int Destination)
+\begin{DoxyCompactList}\small\item\em faire avancer un joueur sur une case en particulier \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_a47025d23d2da18cd3fae89a1aa8abffb}{Payer} (int valeur, \hyperlink{classJoueur}{Joueur} \&receveur)
+\begin{DoxyCompactList}\small\item\em Oblige un joueur a verser une partie de sa cagnotte a un autre joueur. \end{DoxyCompactList}\item 
+void \hyperlink{classJoueur_a3068f8138b55313c8939717b8dcc26bf}{affecter\+Couleur\+Joueur} (\hyperlink{classCouleur}{Couleur} c)
+\begin{DoxyCompactList}\small\item\em affecte une couleur a un joueur \end{DoxyCompactList}\item 
+void {\bfseries Test\+Regression} ()\hypertarget{classJoueur_aa2bf55ddb18c9addf1418c615f608bec}{}\label{classJoueur_aa2bf55ddb18c9addf1418c615f608bec}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+la classe qui permet de generer une case 
+
+\subsection{Documentation des constructeurs et destructeur}
+\index{Joueur@{Joueur}!Joueur@{Joueur}}
+\index{Joueur@{Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{Joueur()}{Joueur()}}]{\setlength{\rightskip}{0pt plus 5cm}Joueur\+::\+Joueur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_add6c98be3020651d84f6d75ccc1d867e}{}\label{classJoueur_add6c98be3020651d84f6d75ccc1d867e}
+
+
+constructeur par defaut de joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un joueur 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!Joueur@{Joueur}}
+\index{Joueur@{Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{Joueur(string Nom, int Numero, const Couleur \&couleur\+Joueur1, const Couleur \&couleur\+Joueur2, const Couleur \&couleur\+Joueur3, const Couleur \&couleur\+Joueur4)}{Joueur(string Nom, int Numero, const Couleur &couleurJoueur1, const Couleur &couleurJoueur2, const Couleur &couleurJoueur3, const Couleur &couleurJoueur4)}}]{\setlength{\rightskip}{0pt plus 5cm}Joueur\+::\+Joueur (
+\begin{DoxyParamCaption}
+\item[{string}]{Nom, }
+\item[{int}]{Numero, }
+\item[{const {\bf Couleur} \&}]{couleur\+Joueur1, }
+\item[{const {\bf Couleur} \&}]{couleur\+Joueur2, }
+\item[{const {\bf Couleur} \&}]{couleur\+Joueur3, }
+\item[{const {\bf Couleur} \&}]{couleur\+Joueur4}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a6b021071dbc36373e27aeefe46b2f3a5}{}\label{classJoueur_a6b021071dbc36373e27aeefe46b2f3a5}
+
+
+constructeur par parametre de joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Nom} & chaine de caractere, Numero\+: entier, couleur\+Joueur1\+: \hyperlink{classCouleur}{Couleur}, couleur\+Joueur2\+: \hyperlink{classCouleur}{Couleur}, couleur\+Joueur3\+: \hyperlink{classCouleur}{Couleur}, couleur\+Joueur4\+: \hyperlink{classCouleur}{Couleur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un joueur 
+\end{DoxyReturn}
+
+
+\subsection{Documentation des fonctions membres}
+\index{Joueur@{Joueur}!affecter\+Couleur\+Joueur@{affecter\+Couleur\+Joueur}}
+\index{affecter\+Couleur\+Joueur@{affecter\+Couleur\+Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{affecter\+Couleur\+Joueur(\+Couleur c)}{affecterCouleurJoueur(Couleur c)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::affecter\+Couleur\+Joueur (
+\begin{DoxyParamCaption}
+\item[{{\bf Couleur}}]{c}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a3068f8138b55313c8939717b8dcc26bf}{}\label{classJoueur_a3068f8138b55313c8939717b8dcc26bf}
+
+
+affecte une couleur a un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em c} & \hyperlink{classCouleur}{Couleur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!Augmenter\+Argent@{Augmenter\+Argent}}
+\index{Augmenter\+Argent@{Augmenter\+Argent}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{Augmenter\+Argent(int Somme)}{AugmenterArgent(int Somme)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::\+Augmenter\+Argent (
+\begin{DoxyParamCaption}
+\item[{int}]{Somme}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_aee0a14e1fcbf775925c2345bb0cc7294}{}\label{classJoueur_aee0a14e1fcbf775925c2345bb0cc7294}
+
+
+modifier la cagnotte d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Somme} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!Avancer@{Avancer}}
+\index{Avancer@{Avancer}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{Avancer(\+De \&\+Paire\+De)}{Avancer(De &PaireDe)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::\+Avancer (
+\begin{DoxyParamCaption}
+\item[{{\bf De} \&}]{Paire\+De}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a88a74f33436855d7068afc8571371f2b}{}\label{classJoueur_a88a74f33436855d7068afc8571371f2b}
+
+
+faire avancer un joueur au moyen d\textquotesingle{}un lancer de dés 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Paire\+De} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!Avancer\+Case@{Avancer\+Case}}
+\index{Avancer\+Case@{Avancer\+Case}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{Avancer\+Case(int Destination)}{AvancerCase(int Destination)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::\+Avancer\+Case (
+\begin{DoxyParamCaption}
+\item[{int}]{Destination}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_ab3f96bf4e675c0424e1910ad0b426fc5}{}\label{classJoueur_ab3f96bf4e675c0424e1910ad0b426fc5}
+
+
+faire avancer un joueur sur une case en particulier 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Destination} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!Diminuer\+Argent@{Diminuer\+Argent}}
+\index{Diminuer\+Argent@{Diminuer\+Argent}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{Diminuer\+Argent(int Somme)}{DiminuerArgent(int Somme)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::\+Diminuer\+Argent (
+\begin{DoxyParamCaption}
+\item[{int}]{Somme}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a261fbab4596ebac8171122ebab8238d8}{}\label{classJoueur_a261fbab4596ebac8171122ebab8238d8}
+
+
+modifier la cagnotte d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Somme} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!get\+Cagnotte\+Joueur@{get\+Cagnotte\+Joueur}}
+\index{get\+Cagnotte\+Joueur@{get\+Cagnotte\+Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{get\+Cagnotte\+Joueur() const }{getCagnotteJoueur() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Joueur\+::get\+Cagnotte\+Joueur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classJoueur_a4fda33fe1f3ee3c79441db3aa108351a}{}\label{classJoueur_a4fda33fe1f3ee3c79441db3aa108351a}
+
+
+obtenir la cagnotte d\textquotesingle{}un joueur (l\textquotesingle{}argent qu\textquotesingle{}il a en reserve) 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!get\+Couleur\+Joueur@{get\+Couleur\+Joueur}}
+\index{get\+Couleur\+Joueur@{get\+Couleur\+Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{get\+Couleur\+Joueur() const }{getCouleurJoueur() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Couleur} Joueur\+::get\+Couleur\+Joueur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classJoueur_abfac9cbad12a4bb882156e75dbbad07f}{}\label{classJoueur_abfac9cbad12a4bb882156e75dbbad07f}
+
+
+obtenir la couleur d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une couleur 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!get\+Encore\+En\+Jeu@{get\+Encore\+En\+Jeu}}
+\index{get\+Encore\+En\+Jeu@{get\+Encore\+En\+Jeu}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{get\+Encore\+En\+Jeu() const }{getEncoreEnJeu() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Joueur\+::get\+Encore\+En\+Jeu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classJoueur_a84ce42b1f0c45d71de434de8923318e7}{}\label{classJoueur_a84ce42b1f0c45d71de434de8923318e7}
+
+
+savoir si un joueur est encore en jeu (true) ou non 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un booleen 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!get\+En\+Prison@{get\+En\+Prison}}
+\index{get\+En\+Prison@{get\+En\+Prison}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{get\+En\+Prison() const }{getEnPrison() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Joueur\+::get\+En\+Prison (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classJoueur_a50562fb939c041ace1822b49cdf5fb1c}{}\label{classJoueur_a50562fb939c041ace1822b49cdf5fb1c}
+
+
+savoir si un joueur est en prison (true) ou non 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un booleen 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!get\+Liste\+Proprietes\+Joueur@{get\+Liste\+Proprietes\+Joueur}}
+\index{get\+Liste\+Proprietes\+Joueur@{get\+Liste\+Proprietes\+Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{get\+Liste\+Proprietes\+Joueur() const }{getListeProprietesJoueur() const }}]{\setlength{\rightskip}{0pt plus 5cm}Tableau\+Dynamique Joueur\+::get\+Liste\+Proprietes\+Joueur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classJoueur_a2526f4cea8724f3ea6b6433a7c5d6737}{}\label{classJoueur_a2526f4cea8724f3ea6b6433a7c5d6737}
+
+
+obtenir la liste des proprietes d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un tableau dynamique 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!get\+Nb\+Carte\+Libre\+Prison@{get\+Nb\+Carte\+Libre\+Prison}}
+\index{get\+Nb\+Carte\+Libre\+Prison@{get\+Nb\+Carte\+Libre\+Prison}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{get\+Nb\+Carte\+Libre\+Prison() const }{getNbCarteLibrePrison() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Joueur\+::get\+Nb\+Carte\+Libre\+Prison (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classJoueur_a9e1ae8232cf4d458c81bcde1cf6cac9d}{}\label{classJoueur_a9e1ae8232cf4d458c81bcde1cf6cac9d}
+
+
+obtenir le nombre de cartes \char`\"{}libere de prison\char`\"{} d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!get\+Nb\+Gare@{get\+Nb\+Gare}}
+\index{get\+Nb\+Gare@{get\+Nb\+Gare}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{get\+Nb\+Gare() const }{getNbGare() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Joueur\+::get\+Nb\+Gare (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classJoueur_a2875776408bb1a52062ef4403f9ac830}{}\label{classJoueur_a2875776408bb1a52062ef4403f9ac830}
+
+
+obtenir le nombre de gares d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!get\+Nb\+Service\+Public@{get\+Nb\+Service\+Public}}
+\index{get\+Nb\+Service\+Public@{get\+Nb\+Service\+Public}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{get\+Nb\+Service\+Public() const }{getNbServicePublic() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Joueur\+::get\+Nb\+Service\+Public (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classJoueur_a92e50af7b49e96d048b75a3114a16f87}{}\label{classJoueur_a92e50af7b49e96d048b75a3114a16f87}
+
+
+obtenir le nombre de services publics d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!get\+Nom\+Joueur@{get\+Nom\+Joueur}}
+\index{get\+Nom\+Joueur@{get\+Nom\+Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{get\+Nom\+Joueur() const }{getNomJoueur() const }}]{\setlength{\rightskip}{0pt plus 5cm}string Joueur\+::get\+Nom\+Joueur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classJoueur_a73a200ab69c2d527a63140e1cf03a5a6}{}\label{classJoueur_a73a200ab69c2d527a63140e1cf03a5a6}
+
+
+obtenir le nom d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une chaine de caractere 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!get\+Numero\+Joueur@{get\+Numero\+Joueur}}
+\index{get\+Numero\+Joueur@{get\+Numero\+Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{get\+Numero\+Joueur() const }{getNumeroJoueur() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Joueur\+::get\+Numero\+Joueur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classJoueur_ae786e53b4e6f69cac8469e03eae0ae8e}{}\label{classJoueur_ae786e53b4e6f69cac8469e03eae0ae8e}
+
+
+obtenir le numero d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!get\+Position\+Joueur@{get\+Position\+Joueur}}
+\index{get\+Position\+Joueur@{get\+Position\+Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{get\+Position\+Joueur() const }{getPositionJoueur() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Joueur\+::get\+Position\+Joueur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classJoueur_aba03f85caafa2ab3ce52d3769845c972}{}\label{classJoueur_aba03f85caafa2ab3ce52d3769845c972}
+
+
+obtenir la position d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!get\+Tour\+Prison@{get\+Tour\+Prison}}
+\index{get\+Tour\+Prison@{get\+Tour\+Prison}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{get\+Tour\+Prison() const }{getTourPrison() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Joueur\+::get\+Tour\+Prison (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classJoueur_a2c72233b506965c4725d9941b60a6f6a}{}\label{classJoueur_a2c72233b506965c4725d9941b60a6f6a}
+
+
+obtenir le nombre de tours passes en prison 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!Nb\+Maisons\+Joueur@{Nb\+Maisons\+Joueur}}
+\index{Nb\+Maisons\+Joueur@{Nb\+Maisons\+Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{Nb\+Maisons\+Joueur()}{NbMaisonsJoueur()}}]{\setlength{\rightskip}{0pt plus 5cm}int Joueur\+::\+Nb\+Maisons\+Joueur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_aa9ecdb286b9a2c293fb65f20c169c1c8}{}\label{classJoueur_aa9ecdb286b9a2c293fb65f20c169c1c8}
+
+
+obtenir le nombre de maisons d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+renvoie un entier 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!Nb\+Terrains\+Non\+Hypotheques@{Nb\+Terrains\+Non\+Hypotheques}}
+\index{Nb\+Terrains\+Non\+Hypotheques@{Nb\+Terrains\+Non\+Hypotheques}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{Nb\+Terrains\+Non\+Hypotheques()}{NbTerrainsNonHypotheques()}}]{\setlength{\rightskip}{0pt plus 5cm}int Joueur\+::\+Nb\+Terrains\+Non\+Hypotheques (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a42907f6de094a06ced56018c48389d2c}{}\label{classJoueur_a42907f6de094a06ced56018c48389d2c}
+
+
+obtenir le nombre de terrains non hypotheques 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+renvoie un entier 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!operator=@{operator=}}
+\index{operator=@{operator=}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{operator=(\+Joueur Joueur\+Droite)}{operator=(Joueur JoueurDroite)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Joueur} \& Joueur\+::operator= (
+\begin{DoxyParamCaption}
+\item[{{\bf Joueur}}]{Joueur\+Droite}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a0a90bcc7315b9756bd7326a3576e03e2}{}\label{classJoueur_a0a90bcc7315b9756bd7326a3576e03e2}
+
+
+surcharge de l\textquotesingle{}operateur \char`\"{}=\char`\"{} entre deux joueurs 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Joueur\+Droite} & \hyperlink{classJoueur}{Joueur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un joueur 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!Payer@{Payer}}
+\index{Payer@{Payer}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{Payer(int valeur, Joueur \&receveur)}{Payer(int valeur, Joueur &receveur)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::\+Payer (
+\begin{DoxyParamCaption}
+\item[{int}]{valeur, }
+\item[{{\bf Joueur} \&}]{receveur}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a47025d23d2da18cd3fae89a1aa8abffb}{}\label{classJoueur_a47025d23d2da18cd3fae89a1aa8abffb}
+
+
+Oblige un joueur a verser une partie de sa cagnotte a un autre joueur. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em valeur} & entier, receveur\+: \hyperlink{classJoueur}{Joueur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!set\+Cagnotte\+Joueur@{set\+Cagnotte\+Joueur}}
+\index{set\+Cagnotte\+Joueur@{set\+Cagnotte\+Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{set\+Cagnotte\+Joueur(int Cagnotte\+Joueur)}{setCagnotteJoueur(int CagnotteJoueur)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::set\+Cagnotte\+Joueur (
+\begin{DoxyParamCaption}
+\item[{int}]{Cagnotte}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a94c32aa334fd5bb3e4ddc96f5b77e1b6}{}\label{classJoueur_a94c32aa334fd5bb3e4ddc96f5b77e1b6}
+
+
+modifier la cagnotte d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Cagnotte} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!set\+Couleur\+Joueur@{set\+Couleur\+Joueur}}
+\index{set\+Couleur\+Joueur@{set\+Couleur\+Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{set\+Couleur\+Joueur(\+Couleur Couleur\+Joueur)}{setCouleurJoueur(Couleur CouleurJoueur)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::set\+Couleur\+Joueur (
+\begin{DoxyParamCaption}
+\item[{{\bf Couleur}}]{CouleurJ}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a783f97724d36879e869bbbed3da7df1a}{}\label{classJoueur_a783f97724d36879e869bbbed3da7df1a}
+
+
+modifier la couleur d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em CouleurJ} & \hyperlink{classCouleur}{Couleur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!set\+Encore\+En\+Jeu@{set\+Encore\+En\+Jeu}}
+\index{set\+Encore\+En\+Jeu@{set\+Encore\+En\+Jeu}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{set\+Encore\+En\+Jeu(bool x)}{setEncoreEnJeu(bool x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::set\+Encore\+En\+Jeu (
+\begin{DoxyParamCaption}
+\item[{bool}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a019e018f64e0ece74ce0133e394c9da7}{}\label{classJoueur_a019e018f64e0ece74ce0133e394c9da7}
+
+
+mettre un joueur hors-\/jeu (true) ou non (false) 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & booleen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!set\+En\+Prison@{set\+En\+Prison}}
+\index{set\+En\+Prison@{set\+En\+Prison}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{set\+En\+Prison(bool En\+Prison)}{setEnPrison(bool EnPrison)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::set\+En\+Prison (
+\begin{DoxyParamCaption}
+\item[{bool}]{Prison}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a44836db8ee97b5a43d9babd0601c66cf}{}\label{classJoueur_a44836db8ee97b5a43d9babd0601c66cf}
+
+
+placer un joueur en prison (true) ou l\textquotesingle{}en sortir (false) 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Prison} & booleen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!set\+Liste\+Proprietes\+Joueur@{set\+Liste\+Proprietes\+Joueur}}
+\index{set\+Liste\+Proprietes\+Joueur@{set\+Liste\+Proprietes\+Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{set\+Liste\+Proprietes\+Joueur(\+Propriete $\ast$e)}{setListeProprietesJoueur(Propriete *e)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::set\+Liste\+Proprietes\+Joueur (
+\begin{DoxyParamCaption}
+\item[{{\bf Propriete} $\ast$}]{e}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a18c5e436eb68fc995a32c27928e0966a}{}\label{classJoueur_a18c5e436eb68fc995a32c27928e0966a}
+
+
+modifier la liste des proprietes d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em e} & \hyperlink{classPropriete}{Propriete} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!set\+Nb\+Carte\+Libre\+Prison@{set\+Nb\+Carte\+Libre\+Prison}}
+\index{set\+Nb\+Carte\+Libre\+Prison@{set\+Nb\+Carte\+Libre\+Prison}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{set\+Nb\+Carte\+Libre\+Prison(int Nb\+Carte\+Libre\+Prison)}{setNbCarteLibrePrison(int NbCarteLibrePrison)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::set\+Nb\+Carte\+Libre\+Prison (
+\begin{DoxyParamCaption}
+\item[{int}]{Nb\+Prison}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_ace62506abea09f7ce35ddf608faf3bf5}{}\label{classJoueur_ace62506abea09f7ce35ddf608faf3bf5}
+
+
+modifier le nombre de cartes \char`\"{}libere de prison\char`\"{} d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Nb\+Prison} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!set\+Nb\+Gare@{set\+Nb\+Gare}}
+\index{set\+Nb\+Gare@{set\+Nb\+Gare}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{set\+Nb\+Gare(int Nb\+Gare)}{setNbGare(int NbGare)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::set\+Nb\+Gare (
+\begin{DoxyParamCaption}
+\item[{int}]{Gare}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a1cda809f3eb87380361472541e94ad72}{}\label{classJoueur_a1cda809f3eb87380361472541e94ad72}
+
+
+modifier le nombre de gares possedees par un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Gare} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!set\+Nb\+Service\+Public@{set\+Nb\+Service\+Public}}
+\index{set\+Nb\+Service\+Public@{set\+Nb\+Service\+Public}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{set\+Nb\+Service\+Public(int Nb\+Service\+Public)}{setNbServicePublic(int NbServicePublic)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::set\+Nb\+Service\+Public (
+\begin{DoxyParamCaption}
+\item[{int}]{Service\+Public}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_ae3d9c066fa56dfbdc93eebd2ffb14f53}{}\label{classJoueur_ae3d9c066fa56dfbdc93eebd2ffb14f53}
+
+
+modifier le nombre de services publics possedes par un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Service\+Public} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!set\+Nom\+Joueur@{set\+Nom\+Joueur}}
+\index{set\+Nom\+Joueur@{set\+Nom\+Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{set\+Nom\+Joueur(string Nom\+Joueur)}{setNomJoueur(string NomJoueur)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::set\+Nom\+Joueur (
+\begin{DoxyParamCaption}
+\item[{string}]{Nom}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a621f031b62d9a5a2360c7ecbe87963e8}{}\label{classJoueur_a621f031b62d9a5a2360c7ecbe87963e8}
+
+
+modifier le nom d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Nom} & chaine de caractere \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!set\+Numero\+Joueur@{set\+Numero\+Joueur}}
+\index{set\+Numero\+Joueur@{set\+Numero\+Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{set\+Numero\+Joueur(int Numero\+Joueur)}{setNumeroJoueur(int NumeroJoueur)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::set\+Numero\+Joueur (
+\begin{DoxyParamCaption}
+\item[{int}]{Numero}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a50820633156f35216a2591f66bab2f7b}{}\label{classJoueur_a50820633156f35216a2591f66bab2f7b}
+
+
+modifier le numero d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Numero} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!set\+Position\+Joueur@{set\+Position\+Joueur}}
+\index{set\+Position\+Joueur@{set\+Position\+Joueur}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{set\+Position\+Joueur(int Position\+Joueur)}{setPositionJoueur(int PositionJoueur)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::set\+Position\+Joueur (
+\begin{DoxyParamCaption}
+\item[{int}]{Position}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_a16ae199ab457026815521c0cd1e2cd9a}{}\label{classJoueur_a16ae199ab457026815521c0cd1e2cd9a}
+
+
+modifier la position d\textquotesingle{}un joueur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Position} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!set\+Tour\+Prison@{set\+Tour\+Prison}}
+\index{set\+Tour\+Prison@{set\+Tour\+Prison}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{set\+Tour\+Prison(int x)}{setTourPrison(int x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Joueur\+::set\+Tour\+Prison (
+\begin{DoxyParamCaption}
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classJoueur_ad27c6fe263fbbcc37f506af658820c66}{}\label{classJoueur_ad27c6fe263fbbcc37f506af658820c66}
+
+
+modifier le nombre de tours passes en prison 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+src/txt/\hyperlink{Joueur_8h}{Joueur.\+h}\item 
+src/txt/\hyperlink{Joueur_8cpp}{Joueur.\+cpp}\end{DoxyCompactItemize}

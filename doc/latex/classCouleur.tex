@@ -1,0 +1,279 @@
+\hypertarget{classCouleur}{}\section{Référence de la classe Couleur}
+\label{classCouleur}\index{Couleur@{Couleur}}
+
+
+{\ttfamily \#include $<$Couleur.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classCouleur_a687a457edb08b51dbcd0299bb0b6a882}{Couleur} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par defaut de la classe \hyperlink{classCouleur}{Couleur} qui cree une couleur. \end{DoxyCompactList}\item 
+\hyperlink{classCouleur_abde5d698dd2ba93ccd9f8fc2c672737d}{Couleur} (unsigned char r, unsigned char v, unsigned char b, string nom)
+\begin{DoxyCompactList}\small\item\em Constructeur par parametre de la classe \hyperlink{classCouleur}{Couleur} qui cree une couleur. \end{DoxyCompactList}\item 
+bool \hyperlink{classCouleur_a668ffa78890f16427cf7e14dd24ee2f5}{operator==} (\hyperlink{classCouleur}{Couleur} Couleur\+Droite)
+\begin{DoxyCompactList}\small\item\em Surcharge de l\textquotesingle{}operateur \char`\"{}==\char`\"{}. \end{DoxyCompactList}\item 
+\hyperlink{classCouleur}{Couleur} \& \hyperlink{classCouleur_a9d7642de6177a296f44ad70a8724523c}{operator=} (\hyperlink{classCouleur}{Couleur} Couleur\+Droite)
+\begin{DoxyCompactList}\small\item\em Surcharge de l\textquotesingle{}operateur \char`\"{}=\char`\"{}. \end{DoxyCompactList}\item 
+unsigned char \hyperlink{classCouleur_a59a0b12ab9cdbff4e2619d97e4cedb97}{get\+Rouge} ()
+\begin{DoxyCompactList}\small\item\em obtenir le taux de rouge d\textquotesingle{}une couleur \end{DoxyCompactList}\item 
+unsigned char \hyperlink{classCouleur_a165899bdcc10fa60c10eed596ebcb682}{get\+Vert} ()
+\begin{DoxyCompactList}\small\item\em obtenir le taux de vert d\textquotesingle{}une couleur \end{DoxyCompactList}\item 
+unsigned char \hyperlink{classCouleur_aef20822658bc4a2fd3756b8ed15e02b7}{get\+Bleu} ()
+\begin{DoxyCompactList}\small\item\em obtenir le taux de bleu d\textquotesingle{}une couleur \end{DoxyCompactList}\item 
+string \hyperlink{classCouleur_a28d35bd6349451ced6b27b06d2a4d429}{get\+Nom\+Couleur} ()
+\begin{DoxyCompactList}\small\item\em obtenir le nom d\textquotesingle{}une couleur \end{DoxyCompactList}\item 
+void \hyperlink{classCouleur_a8cc9d92d1bf32803c04f5e4ebf314ab4}{set\+Rouge} (unsigned char rouge)
+\begin{DoxyCompactList}\small\item\em modifie le taux de rouge d\textquotesingle{}une couleur \end{DoxyCompactList}\item 
+void \hyperlink{classCouleur_a7b147a8bf7661866053918c2d4d3cf60}{set\+Vert} (unsigned char vert)
+\begin{DoxyCompactList}\small\item\em modifie le taux de vert d\textquotesingle{}une couleur \end{DoxyCompactList}\item 
+void \hyperlink{classCouleur_a639e3e3a6b86ed8e2e9ab0e73bff23fe}{set\+Bleu} (unsigned char bleu)
+\begin{DoxyCompactList}\small\item\em modifie le taux de bleu d\textquotesingle{}une couleur \end{DoxyCompactList}\item 
+void \hyperlink{classCouleur_a92ac934fb56448af9d2ddba17e23ec13}{set\+Nom\+Couleur} (string nom)
+\begin{DoxyCompactList}\small\item\em modifie le nom d\textquotesingle{}une couleur \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+la classe qui permet de generer une case 
+
+\subsection{Documentation des constructeurs et destructeur}
+\index{Couleur@{Couleur}!Couleur@{Couleur}}
+\index{Couleur@{Couleur}!Couleur@{Couleur}}
+\subsubsection[{\texorpdfstring{Couleur()}{Couleur()}}]{\setlength{\rightskip}{0pt plus 5cm}Couleur\+::\+Couleur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classCouleur_a687a457edb08b51dbcd0299bb0b6a882}{}\label{classCouleur_a687a457edb08b51dbcd0299bb0b6a882}
+
+
+Constructeur par defaut de la classe \hyperlink{classCouleur}{Couleur} qui cree une couleur. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une couleur 
+\end{DoxyReturn}
+\index{Couleur@{Couleur}!Couleur@{Couleur}}
+\index{Couleur@{Couleur}!Couleur@{Couleur}}
+\subsubsection[{\texorpdfstring{Couleur(unsigned char r, unsigned char v, unsigned char b, string nom)}{Couleur(unsigned char r, unsigned char v, unsigned char b, string nom)}}]{\setlength{\rightskip}{0pt plus 5cm}Couleur\+::\+Couleur (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{rouge, }
+\item[{unsigned char}]{vert, }
+\item[{unsigned char}]{bleu, }
+\item[{string}]{nom}
+\end{DoxyParamCaption}
+)}\hypertarget{classCouleur_abde5d698dd2ba93ccd9f8fc2c672737d}{}\label{classCouleur_abde5d698dd2ba93ccd9f8fc2c672737d}
+
+
+Constructeur par parametre de la classe \hyperlink{classCouleur}{Couleur} qui cree une couleur. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em rouge} & chaine de caractere(unsigned char), vert\+: chaine de caractere(unsigned char), bleu\+: chaine de caractere(unsigned char), nom\+: chaine de caractere \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une couleur 
+\end{DoxyReturn}
+
+
+\subsection{Documentation des fonctions membres}
+\index{Couleur@{Couleur}!get\+Bleu@{get\+Bleu}}
+\index{get\+Bleu@{get\+Bleu}!Couleur@{Couleur}}
+\subsubsection[{\texorpdfstring{get\+Bleu()}{getBleu()}}]{\setlength{\rightskip}{0pt plus 5cm}unsigned char Couleur\+::get\+Bleu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classCouleur_aef20822658bc4a2fd3756b8ed15e02b7}{}\label{classCouleur_aef20822658bc4a2fd3756b8ed15e02b7}
+
+
+obtenir le taux de bleu d\textquotesingle{}une couleur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une chaine de caractere (unsigned char) 
+\end{DoxyReturn}
+\index{Couleur@{Couleur}!get\+Nom\+Couleur@{get\+Nom\+Couleur}}
+\index{get\+Nom\+Couleur@{get\+Nom\+Couleur}!Couleur@{Couleur}}
+\subsubsection[{\texorpdfstring{get\+Nom\+Couleur()}{getNomCouleur()}}]{\setlength{\rightskip}{0pt plus 5cm}string Couleur\+::get\+Nom\+Couleur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classCouleur_a28d35bd6349451ced6b27b06d2a4d429}{}\label{classCouleur_a28d35bd6349451ced6b27b06d2a4d429}
+
+
+obtenir le nom d\textquotesingle{}une couleur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une chaine de caractere 
+\end{DoxyReturn}
+\index{Couleur@{Couleur}!get\+Rouge@{get\+Rouge}}
+\index{get\+Rouge@{get\+Rouge}!Couleur@{Couleur}}
+\subsubsection[{\texorpdfstring{get\+Rouge()}{getRouge()}}]{\setlength{\rightskip}{0pt plus 5cm}unsigned char Couleur\+::get\+Rouge (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classCouleur_a59a0b12ab9cdbff4e2619d97e4cedb97}{}\label{classCouleur_a59a0b12ab9cdbff4e2619d97e4cedb97}
+
+
+obtenir le taux de rouge d\textquotesingle{}une couleur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une chaine de caractere (unsigned char) 
+\end{DoxyReturn}
+\index{Couleur@{Couleur}!get\+Vert@{get\+Vert}}
+\index{get\+Vert@{get\+Vert}!Couleur@{Couleur}}
+\subsubsection[{\texorpdfstring{get\+Vert()}{getVert()}}]{\setlength{\rightskip}{0pt plus 5cm}unsigned char Couleur\+::get\+Vert (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classCouleur_a165899bdcc10fa60c10eed596ebcb682}{}\label{classCouleur_a165899bdcc10fa60c10eed596ebcb682}
+
+
+obtenir le taux de vert d\textquotesingle{}une couleur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une chaine de caractere (unsigned char) 
+\end{DoxyReturn}
+\index{Couleur@{Couleur}!operator=@{operator=}}
+\index{operator=@{operator=}!Couleur@{Couleur}}
+\subsubsection[{\texorpdfstring{operator=(\+Couleur Couleur\+Droite)}{operator=(Couleur CouleurDroite)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Couleur} \& Couleur\+::operator= (
+\begin{DoxyParamCaption}
+\item[{{\bf Couleur}}]{Couleur\+Droite}
+\end{DoxyParamCaption}
+)}\hypertarget{classCouleur_a9d7642de6177a296f44ad70a8724523c}{}\label{classCouleur_a9d7642de6177a296f44ad70a8724523c}
+
+
+Surcharge de l\textquotesingle{}operateur \char`\"{}=\char`\"{}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Couleur\+Droite} & \hyperlink{classCouleur}{Couleur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une couleur 
+\end{DoxyReturn}
+\index{Couleur@{Couleur}!operator==@{operator==}}
+\index{operator==@{operator==}!Couleur@{Couleur}}
+\subsubsection[{\texorpdfstring{operator==(\+Couleur Couleur\+Droite)}{operator==(Couleur CouleurDroite)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Couleur\+::operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Couleur}}]{Couleur\+Droite}
+\end{DoxyParamCaption}
+)}\hypertarget{classCouleur_a668ffa78890f16427cf7e14dd24ee2f5}{}\label{classCouleur_a668ffa78890f16427cf7e14dd24ee2f5}
+
+
+Surcharge de l\textquotesingle{}operateur \char`\"{}==\char`\"{}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Couleur\+Droite} & \hyperlink{classCouleur}{Couleur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un booleen 
+\end{DoxyReturn}
+\index{Couleur@{Couleur}!set\+Bleu@{set\+Bleu}}
+\index{set\+Bleu@{set\+Bleu}!Couleur@{Couleur}}
+\subsubsection[{\texorpdfstring{set\+Bleu(unsigned char bleu)}{setBleu(unsigned char bleu)}}]{\setlength{\rightskip}{0pt plus 5cm}void Couleur\+::set\+Bleu (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{bleu}
+\end{DoxyParamCaption}
+)}\hypertarget{classCouleur_a639e3e3a6b86ed8e2e9ab0e73bff23fe}{}\label{classCouleur_a639e3e3a6b86ed8e2e9ab0e73bff23fe}
+
+
+modifie le taux de bleu d\textquotesingle{}une couleur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em bleu} & chaine de caractere (unsigned char) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Couleur@{Couleur}!set\+Nom\+Couleur@{set\+Nom\+Couleur}}
+\index{set\+Nom\+Couleur@{set\+Nom\+Couleur}!Couleur@{Couleur}}
+\subsubsection[{\texorpdfstring{set\+Nom\+Couleur(string nom)}{setNomCouleur(string nom)}}]{\setlength{\rightskip}{0pt plus 5cm}void Couleur\+::set\+Nom\+Couleur (
+\begin{DoxyParamCaption}
+\item[{string}]{nom}
+\end{DoxyParamCaption}
+)}\hypertarget{classCouleur_a92ac934fb56448af9d2ddba17e23ec13}{}\label{classCouleur_a92ac934fb56448af9d2ddba17e23ec13}
+
+
+modifie le nom d\textquotesingle{}une couleur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em bleu} & chaine de caractere (unsigned char) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Couleur@{Couleur}!set\+Rouge@{set\+Rouge}}
+\index{set\+Rouge@{set\+Rouge}!Couleur@{Couleur}}
+\subsubsection[{\texorpdfstring{set\+Rouge(unsigned char rouge)}{setRouge(unsigned char rouge)}}]{\setlength{\rightskip}{0pt plus 5cm}void Couleur\+::set\+Rouge (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{rouge}
+\end{DoxyParamCaption}
+)}\hypertarget{classCouleur_a8cc9d92d1bf32803c04f5e4ebf314ab4}{}\label{classCouleur_a8cc9d92d1bf32803c04f5e4ebf314ab4}
+
+
+modifie le taux de rouge d\textquotesingle{}une couleur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em bleu} & chaine de caractere (unsigned char) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Couleur@{Couleur}!set\+Vert@{set\+Vert}}
+\index{set\+Vert@{set\+Vert}!Couleur@{Couleur}}
+\subsubsection[{\texorpdfstring{set\+Vert(unsigned char vert)}{setVert(unsigned char vert)}}]{\setlength{\rightskip}{0pt plus 5cm}void Couleur\+::set\+Vert (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{vert}
+\end{DoxyParamCaption}
+)}\hypertarget{classCouleur_a7b147a8bf7661866053918c2d4d3cf60}{}\label{classCouleur_a7b147a8bf7661866053918c2d4d3cf60}
+
+
+modifie le taux de vert d\textquotesingle{}une couleur 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em bleu} & chaine de caractere (unsigned char) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+src/txt/\hyperlink{Couleur_8h}{Couleur.\+h}\item 
+src/txt/\hyperlink{Couleur_8cpp}{Couleur.\+cpp}\end{DoxyCompactItemize}

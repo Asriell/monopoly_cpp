@@ -1,0 +1,109 @@
+\hypertarget{classImage}{}\section{Référence de la classe Image}
+\label{classImage}\index{Image@{Image}}
+
+
+Pour g�rer une image avec S\+D\+L2.  
+
+
+
+
+{\ttfamily \#include $<$sdl\+Jeu.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classImage_a58edd1c45b4faeb5f789b0d036d02313}{Image} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par defaut de la classe \hyperlink{classImage}{Image} qui cree une image. \end{DoxyCompactList}\item 
+void \hyperlink{classImage_aa276b5183099671ddeaf8f083068046c}{load\+From\+File} (const char $\ast$filename, S\+D\+L\+\_\+\+Renderer $\ast$renderer)
+\begin{DoxyCompactList}\small\item\em charge une image depuis un fichier \end{DoxyCompactList}\item 
+void \hyperlink{classImage_a82d6936d466ba0161d8b9cbacf613de5}{draw} (S\+D\+L\+\_\+\+Renderer $\ast$renderer, int x, int y, int w=-\/1, int h=-\/1)
+\begin{DoxyCompactList}\small\item\em dessine une image a l\textquotesingle{}ecran \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+S\+D\+L\+\_\+\+Surface $\ast$ {\bfseries surface}\hypertarget{classImage_ac1d365143f4f5ee59f318977ad6d798b}{}\label{classImage_ac1d365143f4f5ee59f318977ad6d798b}
+
+\item 
+S\+D\+L\+\_\+\+Texture $\ast$ {\bfseries texture}\hypertarget{classImage_a4f44588a7d341e02dae82e2de94dfad6}{}\label{classImage_a4f44588a7d341e02dae82e2de94dfad6}
+
+\item 
+bool {\bfseries has\+\_\+changed}\hypertarget{classImage_ab4cb83faeecef0cfb2773813c4757b45}{}\label{classImage_ab4cb83faeecef0cfb2773813c4757b45}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Pour g�rer une image avec S\+D\+L2. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\index{Image@{Image}!Image@{Image}}
+\index{Image@{Image}!Image@{Image}}
+\subsubsection[{\texorpdfstring{Image()}{Image()}}]{\setlength{\rightskip}{0pt plus 5cm}Image\+::\+Image (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_a58edd1c45b4faeb5f789b0d036d02313}{}\label{classImage_a58edd1c45b4faeb5f789b0d036d02313}
+
+
+Constructeur par defaut de la classe \hyperlink{classImage}{Image} qui cree une image. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une image 
+\end{DoxyReturn}
+
+
+\subsection{Documentation des fonctions membres}
+\index{Image@{Image}!draw@{draw}}
+\index{draw@{draw}!Image@{Image}}
+\subsubsection[{\texorpdfstring{draw(\+S\+D\+L\+\_\+\+Renderer $\ast$renderer, int x, int y, int w=-\/1, int h=-\/1)}{draw(SDL_Renderer *renderer, int x, int y, int w=-1, int h=-1)}}]{\setlength{\rightskip}{0pt plus 5cm}void Image\+::draw (
+\begin{DoxyParamCaption}
+\item[{S\+D\+L\+\_\+\+Renderer $\ast$}]{renderer, }
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{int}]{w = {\ttfamily -\/1}, }
+\item[{int}]{h = {\ttfamily -\/1}}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_a82d6936d466ba0161d8b9cbacf613de5}{}\label{classImage_a82d6936d466ba0161d8b9cbacf613de5}
+
+
+dessine une image a l\textquotesingle{}ecran 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em renderer} & S\+D\+L\+\_\+\+Renderer $\ast$, x\+: int, y\+: int, w\+: int, h\+: int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Image@{Image}!load\+From\+File@{load\+From\+File}}
+\index{load\+From\+File@{load\+From\+File}!Image@{Image}}
+\subsubsection[{\texorpdfstring{load\+From\+File(const char $\ast$filename, S\+D\+L\+\_\+\+Renderer $\ast$renderer)}{loadFromFile(const char *filename, SDL_Renderer *renderer)}}]{\setlength{\rightskip}{0pt plus 5cm}void Image\+::load\+From\+File (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{filename, }
+\item[{S\+D\+L\+\_\+\+Renderer $\ast$}]{renderer}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_aa276b5183099671ddeaf8f083068046c}{}\label{classImage_aa276b5183099671ddeaf8f083068046c}
+
+
+charge une image depuis un fichier 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em filename} & const char$\ast$, renderer\+: S\+D\+L\+\_\+\+Renderer $\ast$ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+src/sdl2/\hyperlink{sdlJeu_8h}{sdl\+Jeu.\+h}\item 
+src/sdl2/\hyperlink{sdlJeu_8cpp}{sdl\+Jeu.\+cpp}\end{DoxyCompactItemize}

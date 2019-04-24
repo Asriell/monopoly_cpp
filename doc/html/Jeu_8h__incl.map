@@ -1,0 +1,11 @@
+<map id="src/txt/Jeu.h" name="src/txt/Jeu.h">
+<area shape="rect" id="node4" href="$Couleur_8h.html" title="Ce fichier contient les en&#45;tetes des fonctions relatives a la gestion des couleurs. " alt="" coords="385,305,463,332"/>
+<area shape="rect" id="node5" href="$Case_8h.html" title="Ce fichier contient les en&#45;tetes des fonctions relatives a la gestion des cases. " alt="" coords="527,81,591,108"/>
+<area shape="rect" id="node6" href="$Propriete_8h.html" title="Ce fichier contient les en&#45;tetes des fonctions relatives a la gestion des proprietes (cases) du plate..." alt="" coords="444,231,529,257"/>
+<area shape="rect" id="node7" href="$Carte_8h.html" title="Ce fichier contient les en&#45;tetes des fonctions relatives a la gestion des cartes. ..." alt="" coords="534,156,599,183"/>
+<area shape="rect" id="node10" href="$De_8h.html" title="Ce fichier contient les en&#45;tetes des fonctions relatives a la gestion des d¨¦s. " alt="" coords="871,305,921,332"/>
+<area shape="rect" id="node12" href="$PaquetCaisseComm_8h.html" title="Ce fichier contient les en&#45;tetes des fonctions relatives a la gestion des files des cartes caisse de ..." alt="" coords="304,156,459,183"/>
+<area shape="rect" id="node13" href="$PaquetChance_8h.html" title="Ce fichier contient les en&#45;tetes des fonctions relatives a la gestion des files des cartes chance..." alt="" coords="699,156,818,183"/>
+<area shape="rect" id="node14" href="$Plateau_8h.html" title="Ce fichier contient les en&#45;tetes des fonctions relatives a la gestion du plateau. ..." alt="" coords="273,231,351,257"/>
+<area shape="rect" id="node8" href="$Joueur_8h.html" title="Ce fichier gere les en&#45;tetes des fonctions caracteristiques des joueurs ainsi que leurs actions..." alt="" coords="613,231,685,257"/>
+</map>

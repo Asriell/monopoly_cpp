@@ -1,0 +1,1360 @@
+# depslib dependency file v1.0
+1491286586 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/Carte.cpp
+	<string>
+	<iostream>
+	"Carte.h"
+	"Jeu.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	<string>
+	<iostream>
+	"Carte.h"
+	"Jeu.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+
+1493101228 nce.h"
+
+1490691882 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/Carte.h
+	<string>
+	"Joueur.h"
+	<string>
+	"Joueur.h"
+
+1491897574 
+
+1491897574 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/Joueur.h
+	<string>
+	"Case.h"
+	"TableauDynamique.h"
+	"Couleur.h"
+	"De.h"
+	<string>
+	"Case.h"
+	"TableauDynamique.h"
+	"Couleur.h"
+	"De.h"
+
+1490827874 "
+
+1491897574 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/Case.h
+	"Propriete.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+	"Propriete.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Joueur.h"
+	"Jeu.h"
+
+1491897558 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/Propriete.h
+	<string>
+	"Couleur.h"
+	<string>
+	"Couleur.h"
+
+1491897574 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/Couleur.h
+	<string>
+	<string>
+
+1491897617 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/TableauDynamique.h
+	"Propriete.h"
+	"Propriete.h"
+
+1491897620 .h"
+
+1490823424 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/De.h
+	<stdlib.h>
+	<stdlib.h>
+
+1491296532 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/Jeu.h
+	<iostream>
+	<string>
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"De.h"
+	"TableauDynamique.h"
+	<iostream>
+	<string>
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"De.h"
+	"TableauDynamique.h"
+
+1493128612 namique.h"
+
+1490827874 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/Plateau.h
+	"Couleur.h"
+	"Couleur.h"
+
+1490805768 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/PaquetChance.h
+
+1490805780 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/PaquetCaisseComm.h
+
+1491903728 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/Case.cpp
+	"Case.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+	<iostream>
+	"Case.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+	<iostream>
+
+1491897574 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/Couleur.cpp
+	"Couleur.h"
+	<assert.h>
+	<iostream>
+	"Couleur.h"
+	<assert.h>
+	<iostream>
+
+1490886002 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/De.cpp
+	"De.h"
+	<stdlib.h>
+	"De.h"
+	<cstdlib>
+	<time.h>
+	<iostream>
+
+1490614306 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/File.cpp
+
+1491901068 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/Jeu.cpp
+	"Jeu.h"
+	<typeinfo>
+	<iostream>
+	<string>
+	"Jeu.h"
+	"Couleur.h"
+	<typeinfo>
+	<iostream>
+	<string>
+
+1491904005 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/Joueur.cpp
+	"Joueur.h"
+	<string>
+	<iostream>
+	<typeinfo>
+	<assert.h>
+	"TableauDynamique.h"
+	"Joueur.h"
+	<string>
+	<iostream>
+	<typeinfo>
+	<assert.h>
+	"TableauDynamique.h"
+
+1491298638 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/main.cpp
+	<iostream>
+	<string>
+	"Joueur.h"
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"TableauDynamique.h"
+	<iostream>
+	<string>
+	"Joueur.h"
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"TableauDynamique.h"
+
+1490876752 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/PaquetCaisseComm.cpp
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	<iostream>
+	<stdlib.h>
+	<string>
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1490877364 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/PaquetChance.cpp
+	"PaquetChance.h"
+	<string>
+	"Carte.h"
+	<iostream>
+	<stdlib.h>
+	"PaquetChance.h"
+	<string>
+	"Carte.h"
+	<iostream>
+	<stdlib.h>
+
+1491897574 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/Plateau.cpp
+	"Plateau.h"
+	"Case.h"
+	<string>
+	"Plateau.h"
+	"Case.h"
+	<string>
+
+1491897556 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/Propriete.cpp
+	"Propriete.h"
+	"Joueur.h"
+	"Couleur.h"
+	<string>
+	<iostream>
+	"Propriete.h"
+	"Joueur.h"
+	"Couleur.h"
+	<string>
+	<iostream>
+
+1491897620 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/src/TableauDynamique.cpp
+	"TableauDynamique.h"
+	<iostream>
+	"Propriete.h"
+	"TableauDynamique.h"
+	<iostream>
+	"Propriete.h"
+
+1490695464 source:c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\carte.cpp
+	<string>
+	<iostream>
+	"Carte.h"
+	"Jeu.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+
+1490695482 c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\carte.h
+	<string>
+	"Joueur.h"
+
+1490828337 c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\joueur.h
+	<string>
+	"Case.h"
+	"TableauDynamique.h"
+	"Couleur.h"
+	"De.h"
+
+1490812802 c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\case.h
+	"Propriete.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+
+1490816694 c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\propriete.h
+	<string>
+	"Couleur.h"
+
+1490690346 c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\couleur.h
+	<string>
+
+1490809380 c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\paquetcaissecomm.h
+
+1490809368 c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\paquetchance.h
+
+1490695884 c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\jeu.h
+	<iostream>
+	<string>
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"De.h"
+	"TableauDynamique.h"
+
+1490831474 c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\plateau.h
+	"Couleur.h"
+
+1490827025 c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\de.h
+	<stdlib.h>
+
+1490829341 c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\tableaudynamique.h
+	"Propriete.h"
+
+1490832767 source:c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\case.cpp
+	"Case.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+	<iostream>
+
+1490690472 source:c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\couleur.cpp
+	"Couleur.h"
+	<assert.h>
+	<iostream>
+
+1490690530 source:c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\de.cpp
+	"De.h"
+	<stdlib.h>
+
+1490617906 source:c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\file.cpp
+
+1490832626 source:c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\jeu.cpp
+	"Jeu.h"
+	<typeinfo>
+	<iostream>
+	<string>
+
+1490829897 source:c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\joueur.cpp
+	"Joueur.h"
+	<string>
+	<iostream>
+	<typeinfo>
+	<assert.h>
+	"TableauDynamique.h"
+
+1490617902 source:c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\main.cpp
+	<iostream>
+	<string>
+	"Joueur.h"
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"TableauDynamique.h"
+
+1490808754 source:c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\paquetcaissecomm.cpp
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1490809422 source:c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\paquetchance.cpp
+	"PaquetChance.h"
+	<string>
+	"Carte.h"
+	<iostream>
+	<stdlib.h>
+
+1490831361 source:c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\propriete.cpp
+	"Propriete.h"
+	"Joueur.h"
+	"Couleur.h"
+	<string>
+	<iostream>
+
+1490829909 source:c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\tableaudynamique.cpp
+	"TableauDynamique.h"
+	<iostream>
+	"Propriete.h"
+
+1490832813 source:c:\users\trist\downloads\p1507416-monopoly(29-03-2017)\p1507416-monopoly\src\plateau.cpp
+	"Plateau.h"
+	"Case.h"
+	<string>
+
+1490691864 source:/home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/Carte.cpp
+	<string>
+	<iostream>
+	"Carte.h"
+	"Jeu.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+
+1490691882 /home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/Carte.h
+	<string>
+	"Joueur.h"
+
+1490824736 /home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/Joueur.h
+	<string>
+	"Case.h"
+	"TableauDynamique.h"
+	"Couleur.h"
+	"De.h"
+
+1490809202 /home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/Case.h
+	"Propriete.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+
+1490813094 /home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/Propriete.h
+	<string>
+	"Couleur.h"
+
+1490686746 /home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/Couleur.h
+	<string>
+
+1490805780 /home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/PaquetCaisseComm.h
+
+1490805768 /home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/PaquetChance.h
+
+1490692284 /home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/Jeu.h
+	<iostream>
+	<string>
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"De.h"
+	"TableauDynamique.h"
+
+1490827874 /home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/Plateau.h
+	"Couleur.h"
+
+1490823424 /home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/De.h
+	<stdlib.h>
+
+1490825740 /home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/TableauDynamique.h
+	"Propriete.h"
+
+1490686872 source:/home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/Couleur.cpp
+	"Couleur.h"
+	<assert.h>
+	<iostream>
+
+1490686930 source:/home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/De.cpp
+	"De.h"
+	<stdlib.h>
+
+1490614306 source:/home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/File.cpp
+
+1490829026 source:/home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/Jeu.cpp
+	"Jeu.h"
+	<typeinfo>
+	<iostream>
+	<string>
+
+1490826296 source:/home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/Joueur.cpp
+	"Joueur.h"
+	<string>
+	<iostream>
+	<typeinfo>
+	<assert.h>
+	"TableauDynamique.h"
+
+1490614302 source:/home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/main.cpp
+	<iostream>
+	<string>
+	"Joueur.h"
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"TableauDynamique.h"
+
+1490805154 source:/home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/PaquetCaisseComm.cpp
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1490805822 source:/home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/PaquetChance.cpp
+	"PaquetChance.h"
+	<string>
+	"Carte.h"
+	<iostream>
+	<stdlib.h>
+
+1490829212 source:/home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/Plateau.cpp
+	"Plateau.h"
+	"Case.h"
+	<string>
+
+1490867793 source:/home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/Propriete.cpp
+	"Propriete.h"
+	"Joueur.h"
+	"Couleur.h"
+	<string>
+	<iostream>
+
+1490867589 source:/home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/TableauDynamique.cpp
+	"TableauDynamique.h"
+	<iostream>
+	"Propriete.h"
+
+1490829988 source:/home/etu/c/p1507416/Licence_L2/S4/ConceptDev/Projet/Projet Monopoly/p1507416-monopoly/src/Case.cpp
+	"Case.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+	<iostream>
+
+1490870729 source:u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\carte.cpp
+	<string>
+	<iostream>
+	"Carte.h"
+	"Jeu.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+
+1490691882 u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\carte.h
+	<string>
+	"Joueur.h"
+
+1490824736 u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\joueur.h
+	<string>
+	"Case.h"
+	"TableauDynamique.h"
+	"Couleur.h"
+	"De.h"
+
+1490809202 u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\case.h
+	"Propriete.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+
+1490813094 u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\propriete.h
+	<string>
+	"Couleur.h"
+
+1490686746 u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\couleur.h
+	<string>
+
+1490805780 u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\paquetcaissecomm.h
+
+1490805768 u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\paquetchance.h
+
+1490692284 u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\jeu.h
+	<iostream>
+	<string>
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"De.h"
+	"TableauDynamique.h"
+
+1490827874 u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\plateau.h
+	"Couleur.h"
+
+1490823424 u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\de.h
+	<stdlib.h>
+
+1490825740 u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\tableaudynamique.h
+	"Propriete.h"
+
+1490829988 source:u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\case.cpp
+	"Case.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+	<iostream>
+
+1490686872 source:u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\couleur.cpp
+	"Couleur.h"
+	<assert.h>
+	<iostream>
+
+1490686930 source:u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\de.cpp
+	"De.h"
+	<stdlib.h>
+
+1490614306 source:u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\file.cpp
+
+1490870864 source:u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\jeu.cpp
+	"Jeu.h"
+	<typeinfo>
+	<iostream>
+	<string>
+
+1490868973 source:u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\joueur.cpp
+	"Joueur.h"
+	<string>
+	<iostream>
+	<typeinfo>
+	<assert.h>
+	"TableauDynamique.h"
+
+1490614302 source:u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\main.cpp
+	<iostream>
+	<string>
+	"Joueur.h"
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"TableauDynamique.h"
+
+1490805154 source:u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\paquetcaissecomm.cpp
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1490805822 source:u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\paquetchance.cpp
+	"PaquetChance.h"
+	<string>
+	"Carte.h"
+	<iostream>
+	<stdlib.h>
+
+1490870176 source:u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\plateau.cpp
+	"Plateau.h"
+	"Case.h"
+	<string>
+
+1490867793 source:u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\propriete.cpp
+	"Propriete.h"
+	"Joueur.h"
+	"Couleur.h"
+	<string>
+	<iostream>
+
+1490867589 source:u:\licence_l2\s4\conceptdev\projet\projet monopoly\p1507416-monopoly\src\tableaudynamique.cpp
+	"TableauDynamique.h"
+	<iostream>
+	"Propriete.h"
+
+1491286585 source:/home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/Carte.cpp
+	<string>
+	<iostream>
+	"Carte.h"
+	"Jeu.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+
+1490691882 /home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/Carte.h
+	<string>
+	"Joueur.h"
+
+1490880368 /home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/Joueur.h
+	<string>
+	"Case.h"
+	"TableauDynamique.h"
+	"Couleur.h"
+	"De.h"
+
+1490809202 /home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/Case.h
+	"Propriete.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+
+1490813094 /home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/Propriete.h
+	<string>
+	"Couleur.h"
+
+1491293471 /home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/Couleur.h
+	<string>
+
+1490805780 /home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/PaquetCaisseComm.h
+
+1490805768 /home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/PaquetChance.h
+
+1491295598 /home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/Jeu.h
+	<iostream>
+	<string>
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"De.h"
+	"TableauDynamique.h"
+
+1490827874 /home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/Plateau.h
+	"Couleur.h"
+
+1490823424 /home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/De.h
+	<stdlib.h>
+
+1490825740 /home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/TableauDynamique.h
+	"Propriete.h"
+
+1491292116 source:/home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/Case.cpp
+	"Case.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+	<iostream>
+
+1491293471 source:/home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/Couleur.cpp
+	"Couleur.h"
+	<assert.h>
+	<iostream>
+
+1490886002 source:/home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/De.cpp
+	"De.h"
+	<cstdlib>
+	<time.h>
+	<iostream>
+
+1490614306 source:/home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/File.cpp
+
+1491295598 source:/home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/Jeu.cpp
+	"Jeu.h"
+	"Couleur.h"
+	<typeinfo>
+	<iostream>
+	<string>
+
+1490888802 source:/home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/Joueur.cpp
+	"Joueur.h"
+	<string>
+	<iostream>
+	<typeinfo>
+	<assert.h>
+	"TableauDynamique.h"
+
+1490887390 source:/home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/main.cpp
+	<iostream>
+	<string>
+	"Joueur.h"
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"TableauDynamique.h"
+
+1490876752 source:/home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/PaquetCaisseComm.cpp
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1490877364 source:/home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/PaquetChance.cpp
+	"PaquetChance.h"
+	<string>
+	"Carte.h"
+	<iostream>
+	<stdlib.h>
+
+1491295477 source:/home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/Plateau.cpp
+	"Plateau.h"
+	"Case.h"
+	<string>
+
+1490867794 source:/home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/Propriete.cpp
+	"Propriete.h"
+	"Joueur.h"
+	"Couleur.h"
+	<string>
+	<iostream>
+
+1490867590 source:/home/etu/d/p1509696/Téléchargements/p1507416-monopoly/src/TableauDynamique.cpp
+	"TableauDynamique.h"
+	<iostream>
+	"Propriete.h"
+
+1491286585 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/Carte.cpp
+	<string>
+	<iostream>
+	"Carte.h"
+	"Jeu.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+
+1490691882 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/Carte.h
+	<string>
+	"Joueur.h"
+
+1491298375 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/Joueur.h
+	<string>
+	"Case.h"
+	"TableauDynamique.h"
+	"Couleur.h"
+	"De.h"
+
+1491299992 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/Case.h
+	"Propriete.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Joueur.h"
+	"Jeu.h"
+
+1490813094 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/Propriete.h
+	<string>
+	"Couleur.h"
+
+1491296601 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/Couleur.h
+	<string>
+
+1490805780 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/PaquetCaisseComm.h
+
+1490805768 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/PaquetChance.h
+
+1491296531 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/Jeu.h
+	<iostream>
+	<string>
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"De.h"
+	"TableauDynamique.h"
+
+1490827874 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/Plateau.h
+	"Couleur.h"
+
+1490823424 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/De.h
+	<stdlib.h>
+
+1490825740 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/TableauDynamique.h
+	"Propriete.h"
+
+1491300005 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/Case.cpp
+	"Case.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+	<iostream>
+
+1491296603 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/Couleur.cpp
+	"Couleur.h"
+	<assert.h>
+	<iostream>
+
+1490886002 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/De.cpp
+	"De.h"
+	<cstdlib>
+	<time.h>
+	<iostream>
+
+1490614306 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/File.cpp
+
+1491299962 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/Jeu.cpp
+	"Jeu.h"
+	"Couleur.h"
+	<typeinfo>
+	<iostream>
+	<string>
+
+1491298271 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/Joueur.cpp
+	"Joueur.h"
+	<string>
+	<iostream>
+	<typeinfo>
+	<assert.h>
+	"TableauDynamique.h"
+
+1491298638 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/main.cpp
+	<iostream>
+	<string>
+	"Joueur.h"
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"TableauDynamique.h"
+
+1490876752 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/PaquetCaisseComm.cpp
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1490877364 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/PaquetChance.cpp
+	"PaquetChance.h"
+	<string>
+	"Carte.h"
+	<iostream>
+	<stdlib.h>
+
+1491295477 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/Plateau.cpp
+	"Plateau.h"
+	"Case.h"
+	<string>
+
+1490867794 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/Propriete.cpp
+	"Propriete.h"
+	"Joueur.h"
+	"Couleur.h"
+	<string>
+	<iostream>
+
+1490867590 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/p1507416-monopoly/p1507416-monopoly/src/TableauDynamique.cpp
+	"TableauDynamique.h"
+	<iostream>
+	"Propriete.h"
+
+1493101228 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Carte.cpp
+	<string>
+	<iostream>
+	"Carte.h"
+	"Jeu.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+
+1490691882 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Carte.h
+	<string>
+	"Joueur.h"
+
+1493114323 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Joueur.h
+	<string>
+	"Case.h"
+	"TableauDynamique.h"
+	"Couleur.h"
+	"De.h"
+
+1492690178 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Case.h
+	"Propriete.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Joueur.h"
+	"Jeu.h"
+
+1493127087 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Propriete.h
+	<string>
+	"Couleur.h"
+
+1491897574 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Couleur.h
+	<string>
+
+1490805780 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/PaquetCaisseComm.h
+
+1490805768 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/PaquetChance.h
+
+1493111707 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Jeu.h
+	<iostream>
+	<string>
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"De.h"
+	"TableauDynamique.h"
+
+1490827874 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Plateau.h
+	"Couleur.h"
+
+1490823424 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/De.h
+	<stdlib.h>
+
+1491897618 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/TableauDynamique.h
+	"Propriete.h"
+
+1493113883 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Case.cpp
+	"Case.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+	<iostream>
+
+1491897574 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Couleur.cpp
+	"Couleur.h"
+	<assert.h>
+	<iostream>
+
+1490886002 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/De.cpp
+	"De.h"
+	<cstdlib>
+	<time.h>
+	<iostream>
+
+1493128458 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Jeu.cpp
+	"Jeu.h"
+	"Couleur.h"
+	<typeinfo>
+	<iostream>
+	<string>
+
+1493114801 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Joueur.cpp
+	"Joueur.h"
+	<string>
+	<iostream>
+	<typeinfo>
+	<assert.h>
+	"TableauDynamique.h"
+
+1493128612 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/main.cpp
+	<iostream>
+	<string>
+	"Joueur.h"
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"TableauDynamique.h"
+
+1490876752 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/PaquetCaisseComm.cpp
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1490877364 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/PaquetChance.cpp
+	"PaquetChance.h"
+	<string>
+	"Carte.h"
+	<iostream>
+	<stdlib.h>
+
+1491897574 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Plateau.cpp
+	"Plateau.h"
+	"Case.h"
+	<string>
+
+1493127581 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Propriete.cpp
+	"Propriete.h"
+	"Joueur.h"
+	"Couleur.h"
+	<string>
+	<iostream>
+
+1491897620 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/TableauDynamique.cpp
+	"TableauDynamique.h"
+	<iostream>
+	"Propriete.h"
+
+1493101228 source:\\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\carte.cpp
+	<string>
+	<iostream>
+	"Carte.h"
+	"Jeu.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+
+1490691882 \\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\carte.h
+	<string>
+	"Joueur.h"
+
+1493114323 \\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\joueur.h
+	<string>
+	"Case.h"
+	"TableauDynamique.h"
+	"Couleur.h"
+	"De.h"
+
+1492690178 \\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\case.h
+	"Propriete.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Joueur.h"
+	"Jeu.h"
+
+1493127087 \\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\propriete.h
+	<string>
+	"Couleur.h"
+
+1491897574 \\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\couleur.h
+	<string>
+
+1490805780 \\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\paquetcaissecomm.h
+
+1490805768 \\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\paquetchance.h
+
+1493111707 \\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\jeu.h
+	<iostream>
+	<string>
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"De.h"
+	"TableauDynamique.h"
+
+1490827874 \\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\plateau.h
+	"Couleur.h"
+
+1490823424 \\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\de.h
+	<stdlib.h>
+
+1491897618 \\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\tableaudynamique.h
+	"Propriete.h"
+
+1493113883 source:\\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\case.cpp
+	"Case.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+	<iostream>
+
+1491897574 source:\\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\couleur.cpp
+	"Couleur.h"
+	<assert.h>
+	<iostream>
+
+1490886002 source:\\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\de.cpp
+	"De.h"
+	<cstdlib>
+	<time.h>
+	<iostream>
+
+1493128458 source:\\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\jeu.cpp
+	"Jeu.h"
+	"Couleur.h"
+	<typeinfo>
+	<iostream>
+	<string>
+
+1493114801 source:\\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\joueur.cpp
+	"Joueur.h"
+	<string>
+	<iostream>
+	<typeinfo>
+	<assert.h>
+	"TableauDynamique.h"
+
+1493128612 source:\\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\main.cpp
+	<iostream>
+	<string>
+	"Joueur.h"
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"TableauDynamique.h"
+
+1490876752 source:\\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\paquetcaissecomm.cpp
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1490877364 source:\\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\paquetchance.cpp
+	"PaquetChance.h"
+	<string>
+	"Carte.h"
+	<iostream>
+	<stdlib.h>
+
+1491897574 source:\\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\plateau.cpp
+	"Plateau.h"
+	"Case.h"
+	<string>
+
+1493127581 source:\\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\propriete.cpp
+	"Propriete.h"
+	"Joueur.h"
+	"Couleur.h"
+	<string>
+	<iostream>
+
+1491897620 source:\\teraetu\homeetu\b\p1507706\bureau\projet_lifap4\p1507416-monopoly\src\tableaudynamique.cpp
+	"TableauDynamique.h"
+	<iostream>
+	"Propriete.h"
+
+1493101228 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Carte.cpp
+	<string>
+	<iostream>
+	"Carte.h"
+	"Jeu.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+
+1490691882 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Carte.h
+	<string>
+	"Joueur.h"
+
+1493114323 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Joueur.h
+	<string>
+	"Case.h"
+	"TableauDynamique.h"
+	"Couleur.h"
+	"De.h"
+
+1492690178 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Case.h
+	"Propriete.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Joueur.h"
+	"Jeu.h"
+
+1493127087 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Propriete.h
+	<string>
+	"Couleur.h"
+
+1491897574 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Couleur.h
+	<string>
+
+1490805780 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/PaquetCaisseComm.h
+
+1490805768 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/PaquetChance.h
+
+1493111707 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Jeu.h
+	<iostream>
+	<string>
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"De.h"
+	"TableauDynamique.h"
+
+1490827874 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Plateau.h
+	"Couleur.h"
+
+1490823424 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/De.h
+	<stdlib.h>
+
+1491897618 /home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/TableauDynamique.h
+	"Propriete.h"
+
+1493113883 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Case.cpp
+	"Case.h"
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	"PaquetChance.h"
+	"Jeu.h"
+	<iostream>
+
+1491897574 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Couleur.cpp
+	"Couleur.h"
+	<assert.h>
+	<iostream>
+
+1490886002 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/De.cpp
+	"De.h"
+	<cstdlib>
+	<time.h>
+	<iostream>
+
+1493280938 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Jeu.cpp
+	"Jeu.h"
+	"Couleur.h"
+	<typeinfo>
+	<iostream>
+	<string>
+
+1493277076 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Joueur.cpp
+	"Joueur.h"
+	<string>
+	<iostream>
+	<typeinfo>
+	<assert.h>
+	"TableauDynamique.h"
+
+1493128612 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/main.cpp
+	<iostream>
+	<string>
+	"Joueur.h"
+	"Couleur.h"
+	"Case.h"
+	"Plateau.h"
+	"Propriete.h"
+	"Carte.h"
+	"Jeu.h"
+	"PaquetChance.h"
+	"PaquetCaisseComm.h"
+	"TableauDynamique.h"
+
+1490876752 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/PaquetCaisseComm.cpp
+	"Carte.h"
+	"PaquetCaisseComm.h"
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1490877364 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/PaquetChance.cpp
+	"PaquetChance.h"
+	<string>
+	"Carte.h"
+	<iostream>
+	<stdlib.h>
+
+1491897574 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Plateau.cpp
+	"Plateau.h"
+	"Case.h"
+	<string>
+
+1493127581 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/Propriete.cpp
+	"Propriete.h"
+	"Joueur.h"
+	"Couleur.h"
+	<string>
+	<iostream>
+
+1491897620 source:/home/etu/b/p1507706/Bureau/PROJET_LIFAP4/p1507416-monopoly/src/TableauDynamique.cpp
+	"TableauDynamique.h"
+	<iostream>
+	"Propriete.h"
+

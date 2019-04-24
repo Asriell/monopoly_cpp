@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Monopoly" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Monopoly" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Monopoly" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`sdl-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+		</Linker>
+		<Unit filename="src/Carte.cpp" />
+		<Unit filename="src/Carte.h" />
+		<Unit filename="src/Case.cpp" />
+		<Unit filename="src/Case.h" />
+		<Unit filename="src/Couleur.cpp" />
+		<Unit filename="src/Couleur.h" />
+		<Unit filename="src/De.cpp" />
+		<Unit filename="src/De.h" />
+		<Unit filename="src/Jeu.cpp" />
+		<Unit filename="src/Jeu.h" />
+		<Unit filename="src/Joueur.cpp" />
+		<Unit filename="src/Joueur.h" />
+		<Unit filename="src/PaquetCaisseComm.cpp" />
+		<Unit filename="src/PaquetCaisseComm.h" />
+		<Unit filename="src/PaquetChance.cpp" />
+		<Unit filename="src/PaquetChance.h" />
+		<Unit filename="src/Plateau.cpp" />
+		<Unit filename="src/Plateau.h" />
+		<Unit filename="src/Propriete.cpp" />
+		<Unit filename="src/Propriete.h" />
+		<Unit filename="src/TableauDynamique.cpp" />
+		<Unit filename="src/TableauDynamique.h" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

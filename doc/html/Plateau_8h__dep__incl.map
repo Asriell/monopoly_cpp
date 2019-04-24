@@ -1,0 +1,15 @@
+<map id="src/txt/Plateau.h" name="src/txt/Plateau.h">
+<area shape="rect" id="node2" href="$Jeu_8h.html" title="Ce fichier contient les en&#45;tetes des fonctions pour initialiser et gerer le jeu. " alt="" coords="386,80,481,107"/>
+<area shape="rect" id="node8" href="$main_8cpp.html" title="Ce fichier est le main, le programme principal de THE Monopoly. " alt="" coords="769,379,885,405"/>
+<area shape="rect" id="node13" href="$Plateau_8cpp.html" title="Ce fichier contient les fonctions relatives a la gestion du plateau. " alt="" coords="890,229,1022,256"/>
+<area shape="rect" id="node3" href="$Case_8h.html" title="Ce fichier contient les en&#45;tetes des fonctions relatives a la gestion des cases. " alt="" coords="501,155,606,181"/>
+<area shape="rect" id="node6" href="$Carte_8cpp.html" title="Ce fichier contient les fonctions relatives a la gestion des cartes. " alt="" coords="49,379,169,405"/>
+<area shape="rect" id="node7" href="$Case_8cpp.html" title="Ce fichier contient les fonctions relatives a la gestion des cases. " alt="" coords="194,379,313,405"/>
+<area shape="rect" id="node14" href="$Jeu_8cpp.html" title="Ce fichier contient les fonctions pour initialiser et gerer le jeu. " alt="" coords="5,155,115,181"/>
+<area shape="rect" id="node4" href="$Joueur_8h.html" title="Ce fichier gere les en&#45;tetes des fonctions caracteristiques des joueurs ainsi que leurs actions..." alt="" coords="497,229,610,256"/>
+<area shape="rect" id="node5" href="$Carte_8h.html" title="Ce fichier contient les en&#45;tetes des fonctions relatives a la gestion des cartes. ..." alt="" coords="240,304,347,331"/>
+<area shape="rect" id="node11" href="$Joueur_8cpp.html" title="Ce fichier gere les caracteristiques des joueurs ainsi que leurs actions. " alt="" coords="371,304,498,331"/>
+<area shape="rect" id="node12" href="$Propriete_8cpp.html" title="Ce fichier contient les fonctions relatives a la gestion des proprietes (cases) du plateau..." alt="" coords="522,304,662,331"/>
+<area shape="rect" id="node9" href="$PaquetCaisseComm_8cpp.html" title="Ce fichier contient les fonctions relatives a la gestion des files des cartes caisse de communaute..." alt="" coords="535,379,745,405"/>
+<area shape="rect" id="node10" href="$PaquetChance_8cpp.html" title="Ce fichier contient les fonctions relatives a la gestion des files des cartes chance. " alt="" coords="337,379,511,405"/>
+</map>

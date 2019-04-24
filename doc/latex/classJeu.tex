@@ -1,0 +1,193 @@
+\hypertarget{classJeu}{}\section{Référence de la classe Jeu}
+\label{classJeu}\index{Jeu@{Jeu}}
+
+
+{\ttfamily \#include $<$Jeu.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classJeu_a437282d939ce54d7f3e2eeb56dc0fce7}{initialiser\+Jeu} ()
+\begin{DoxyCompactList}\small\item\em la fonction cree les cases du plateau, les cartes, et les joueurs \end{DoxyCompactList}\item 
+\hyperlink{classJeu_a9cd19e73df169d7f09397be61ba8548c}{$\sim$\+Jeu} ()
+\begin{DoxyCompactList}\small\item\em le destructeur de la classe \hyperlink{classJeu}{Jeu} \end{DoxyCompactList}\item 
+\hyperlink{classJoueur}{Joueur} \hyperlink{classJeu_a0b91f25bdd13913a49d73f4a4f30fa10}{Get\+Joueur} (int num) const 
+\begin{DoxyCompactList}\small\item\em Renvoie un joueur a partir de son numero. \end{DoxyCompactList}\item 
+const \hyperlink{classPaquetChance}{Paquet\+Chance} \& {\bfseries Get\+Chance} () const \hypertarget{classJeu_a66c298cd9ce97d8c24fbb4109a880e4c}{}\label{classJeu_a66c298cd9ce97d8c24fbb4109a880e4c}
+
+\item 
+const \hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm} \& {\bfseries Get\+Commu} () const \hypertarget{classJeu_a538b9fc6dc3ccaa6a2adb7be6cb039a3}{}\label{classJeu_a538b9fc6dc3ccaa6a2adb7be6cb039a3}
+
+\item 
+const \hyperlink{classDe}{De} \& {\bfseries Get\+De} () const \hypertarget{classJeu_a371fdcc4ce95122aedaa4011f6a84dd8}{}\label{classJeu_a371fdcc4ce95122aedaa4011f6a84dd8}
+
+\item 
+int \hyperlink{classJeu_addcdf6347e6c0a409bc385ced6965f56}{get\+Nb\+Joueurs} () const 
+\begin{DoxyCompactList}\small\item\em Obtenir le nombre de joueurs. \end{DoxyCompactList}\item 
+int \hyperlink{classJeu_ad9afa609474f21234d2c78643dfb4bdc}{Nb\+Joueurs\+Restants} ()
+\begin{DoxyCompactList}\small\item\em Renvoie le nombre de joueurs restants (non elimines) \end{DoxyCompactList}\item 
+void \hyperlink{classJeu_a3f52f74bdf70e7395c65910ab577ff4d}{Tour} (const \hyperlink{classPlateau}{Plateau} \&p, \hyperlink{classPaquetChance}{Paquet\+Chance} \&chance, \hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm} \&commu, \hyperlink{classDe}{De} des, \hyperlink{classJoueur}{Joueur} $\ast$joueur)
+\begin{DoxyCompactList}\small\item\em Gere les tours entre tous les joueurs, propose les actions possibles et prend en compte leurs reponses. \end{DoxyCompactList}\item 
+void {\bfseries Enchere} (\hyperlink{classPropriete}{Propriete} \&\hyperlink{classPropriete}{Propriete})\hypertarget{classJeu_ac2bb145d9a3e0b37686a6167ae8028fa}{}\label{classJeu_ac2bb145d9a3e0b37686a6167ae8028fa}
+
+\item 
+void \hyperlink{classJeu_a347c8cfc514cdf3e38a9aed2d9af5619}{Prison} (\hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm} \&commu, \hyperlink{classPaquetChance}{Paquet\+Chance} \&chance, \hyperlink{classDe}{De} Paire\+De, \hyperlink{classJoueur}{Joueur} $\ast$Prisonnier)
+\begin{DoxyCompactList}\small\item\em La procedure qui gere les actions d\textquotesingle{}un joueur actuellement en prison. \end{DoxyCompactList}\item 
+void {\bfseries Faillite} (\hyperlink{classJoueur}{Joueur} $\ast$joueur)\hypertarget{classJeu_a92d118fa02f22692a5add86578e8f426}{}\label{classJeu_a92d118fa02f22692a5add86578e8f426}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+la classe qui permet de generer une case 
+
+\subsection{Documentation des constructeurs et destructeur}
+\index{Jeu@{Jeu}!````~Jeu@{$\sim$\+Jeu}}
+\index{````~Jeu@{$\sim$\+Jeu}!Jeu@{Jeu}}
+\subsubsection[{\texorpdfstring{$\sim$\+Jeu()}{~Jeu()}}]{\setlength{\rightskip}{0pt plus 5cm}Jeu\+::$\sim$\+Jeu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classJeu_a9cd19e73df169d7f09397be61ba8548c}{}\label{classJeu_a9cd19e73df169d7f09397be61ba8548c}
+
+
+le destructeur de la classe \hyperlink{classJeu}{Jeu} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+
+
+\subsection{Documentation des fonctions membres}
+\index{Jeu@{Jeu}!Get\+Joueur@{Get\+Joueur}}
+\index{Get\+Joueur@{Get\+Joueur}!Jeu@{Jeu}}
+\subsubsection[{\texorpdfstring{Get\+Joueur(int num) const }{GetJoueur(int num) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Joueur} Jeu\+::\+Get\+Joueur (
+\begin{DoxyParamCaption}
+\item[{int}]{num}
+\end{DoxyParamCaption}
+) const}\hypertarget{classJeu_a0b91f25bdd13913a49d73f4a4f30fa10}{}\label{classJeu_a0b91f25bdd13913a49d73f4a4f30fa10}
+
+
+Renvoie un joueur a partir de son numero. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em num} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un booleen 
+\end{DoxyReturn}
+\index{Jeu@{Jeu}!get\+Nb\+Joueurs@{get\+Nb\+Joueurs}}
+\index{get\+Nb\+Joueurs@{get\+Nb\+Joueurs}!Jeu@{Jeu}}
+\subsubsection[{\texorpdfstring{get\+Nb\+Joueurs() const }{getNbJoueurs() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Jeu\+::get\+Nb\+Joueurs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classJeu_addcdf6347e6c0a409bc385ced6965f56}{}\label{classJeu_addcdf6347e6c0a409bc385ced6965f56}
+
+
+Obtenir le nombre de joueurs. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Jeu@{Jeu}!initialiser\+Jeu@{initialiser\+Jeu}}
+\index{initialiser\+Jeu@{initialiser\+Jeu}!Jeu@{Jeu}}
+\subsubsection[{\texorpdfstring{initialiser\+Jeu()}{initialiserJeu()}}]{\setlength{\rightskip}{0pt plus 5cm}void Jeu\+::initialiser\+Jeu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classJeu_a437282d939ce54d7f3e2eeb56dc0fce7}{}\label{classJeu_a437282d939ce54d7f3e2eeb56dc0fce7}
+
+
+la fonction cree les cases du plateau, les cartes, et les joueurs 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Jeu@{Jeu}!Nb\+Joueurs\+Restants@{Nb\+Joueurs\+Restants}}
+\index{Nb\+Joueurs\+Restants@{Nb\+Joueurs\+Restants}!Jeu@{Jeu}}
+\subsubsection[{\texorpdfstring{Nb\+Joueurs\+Restants()}{NbJoueursRestants()}}]{\setlength{\rightskip}{0pt plus 5cm}int Jeu\+::\+Nb\+Joueurs\+Restants (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classJeu_ad9afa609474f21234d2c78643dfb4bdc}{}\label{classJeu_ad9afa609474f21234d2c78643dfb4bdc}
+
+
+Renvoie le nombre de joueurs restants (non elimines) 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pas} & d\textquotesingle{}argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier 
+\end{DoxyReturn}
+\index{Jeu@{Jeu}!Prison@{Prison}}
+\index{Prison@{Prison}!Jeu@{Jeu}}
+\subsubsection[{\texorpdfstring{Prison(\+Paquet\+Caisse\+Comm \&commu, Paquet\+Chance \&chance, De Paire\+De, Joueur $\ast$\+Prisonnier)}{Prison(PaquetCaisseComm &commu, PaquetChance &chance, De PaireDe, Joueur *Prisonnier)}}]{\setlength{\rightskip}{0pt plus 5cm}void Jeu\+::\+Prison (
+\begin{DoxyParamCaption}
+\item[{{\bf Paquet\+Caisse\+Comm} \&}]{commu, }
+\item[{{\bf Paquet\+Chance} \&}]{chance, }
+\item[{{\bf De}}]{Paire\+De, }
+\item[{{\bf Joueur} $\ast$}]{Prisonnier}
+\end{DoxyParamCaption}
+)}\hypertarget{classJeu_a347c8cfc514cdf3e38a9aed2d9af5619}{}\label{classJeu_a347c8cfc514cdf3e38a9aed2d9af5619}
+
+
+La procedure qui gere les actions d\textquotesingle{}un joueur actuellement en prison. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em commu} & \hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm}, chance\+: \hyperlink{classPaquetChance}{Paquet\+Chance}, Paire\+De\+: \hyperlink{classDe}{De}, Prisonnier\+: \hyperlink{classJoueur}{Joueur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+\index{Jeu@{Jeu}!Tour@{Tour}}
+\index{Tour@{Tour}!Jeu@{Jeu}}
+\subsubsection[{\texorpdfstring{Tour(const Plateau \&p, Paquet\+Chance \&chance, Paquet\+Caisse\+Comm \&commu, De des, Joueur $\ast$joueur)}{Tour(const Plateau &p, PaquetChance &chance, PaquetCaisseComm &commu, De des, Joueur *joueur)}}]{\setlength{\rightskip}{0pt plus 5cm}void Jeu\+::\+Tour (
+\begin{DoxyParamCaption}
+\item[{const {\bf Plateau} \&}]{p, }
+\item[{{\bf Paquet\+Chance} \&}]{chance, }
+\item[{{\bf Paquet\+Caisse\+Comm} \&}]{commu, }
+\item[{{\bf De}}]{des, }
+\item[{{\bf Joueur} $\ast$}]{joueur}
+\end{DoxyParamCaption}
+)}\hypertarget{classJeu_a3f52f74bdf70e7395c65910ab577ff4d}{}\label{classJeu_a3f52f74bdf70e7395c65910ab577ff4d}
+
+
+Gere les tours entre tous les joueurs, propose les actions possibles et prend en compte leurs reponses. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em p} & \hyperlink{classPlateau}{Plateau}, chance\+: \hyperlink{classPaquetChance}{Paquet\+Chance}, commu\+: \hyperlink{classPaquetCaisseComm}{Paquet\+Caisse\+Comm}, des\+: \hyperlink{classDe}{De}, joueur\+: \hyperlink{classJoueur}{Joueur} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+pas de valeur retournee 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+src/txt/\hyperlink{Jeu_8h}{Jeu.\+h}\item 
+src/txt/\hyperlink{Jeu_8cpp}{Jeu.\+cpp}\end{DoxyCompactItemize}

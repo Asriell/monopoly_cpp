@@ -1,0 +1,14 @@
+<map id="src/txt/Carte.h" name="src/txt/Carte.h">
+<area shape="rect" id="node2" href="$Case_8h.html" title="Ce fichier contient les en&#45;tetes des fonctions relatives a la gestion des cases. " alt="" coords="424,80,529,107"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title="Ce fichier est le main, le programme principal de THE Monopoly. " alt="" coords="320,229,436,256"/>
+<area shape="rect" id="node7" href="$Jeu_8h.html" title="Ce fichier contient les en&#45;tetes des fonctions pour initialiser et gerer le jeu. " alt="" coords="619,155,713,181"/>
+<area shape="rect" id="node8" href="$Carte_8cpp.html" title="Ce fichier contient les fonctions relatives a la gestion des cartes. " alt="" coords="761,229,881,256"/>
+<area shape="rect" id="node9" href="$Case_8cpp.html" title="Ce fichier contient les fonctions relatives a la gestion des cases. " alt="" coords="479,229,597,256"/>
+<area shape="rect" id="node12" href="$PaquetCaisseComm_8cpp.html" title="Ce fichier contient les fonctions relatives a la gestion des files des cartes caisse de communaute..." alt="" coords="864,80,1073,107"/>
+<area shape="rect" id="node13" href="$PaquetChance_8cpp.html" title="Ce fichier contient les fonctions relatives a la gestion des files des cartes chance. " alt="" coords="1097,80,1272,107"/>
+<area shape="rect" id="node3" href="$Joueur_8h.html" title="Ce fichier gere les en&#45;tetes des fonctions caracteristiques des joueurs ainsi que leurs actions..." alt="" coords="172,155,285,181"/>
+<area shape="rect" id="node11" href="$Plateau_8cpp.html" title="Ce fichier contient les fonctions relatives a la gestion du plateau. " alt="" coords="463,155,595,181"/>
+<area shape="rect" id="node4" href="$Joueur_8cpp.html" title="Ce fichier gere les caracteristiques des joueurs ainsi que leurs actions. " alt="" coords="5,229,132,256"/>
+<area shape="rect" id="node6" href="$Propriete_8cpp.html" title="Ce fichier contient les fonctions relatives a la gestion des proprietes (cases) du plateau..." alt="" coords="156,229,296,256"/>
+<area shape="rect" id="node10" href="$Jeu_8cpp.html" title="Ce fichier contient les fonctions pour initialiser et gerer le jeu. " alt="" coords="622,229,731,256"/>
+</map>
