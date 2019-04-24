@@ -50,7 +50,7 @@ par Tristan Damian 11509696, Matthieu Cherrier 11507416, Kevin Burdin 11507706
 
 
 ### Description de l'organisation de l'archive ###
-```
+
 #### La racine
 	On y trouve le fichier "Makefile" qui servira a compiler le projet. Il y a egalement les dossiers "bin",
 	 "data", "doc", "obj" et "src".
@@ -67,6 +67,6 @@ par Tristan Damian 11509696, Matthieu Cherrier 11507416, Kevin Burdin 11507706
 		des lignes de code. On y trouve principalement des images du jeu, mais aussi des polices.
 	- Dans le dossier "bin" se situent les deux executables monopoly_sdl et monopoly_txt.
 
-```
+
 
 
